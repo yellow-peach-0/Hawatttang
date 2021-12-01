@@ -1,4 +1,4 @@
-
+/* backgroud */
 .background{
     margin: 0;
     padding: 0;
@@ -8,24 +8,59 @@
     background-size: cover;
 }
 
+/* title */
+
+#title {
+    position: relative;
+    height: 100vh;
+}
+
+#in_title{
+    top: 27%;
+    left: 13%;
+    position: absolute;
+    color: white;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 55px;
+}
+
+#title_b {
+    font-family:Cafe24Ssurround;
+}
+
+#in_title2{
+    text-align: right;
+    position: absolute;
+    color: white;
+    right: 14%;
+    top:53%;
+}
+
+#in_title2 div:first-child{
+    font-family: Cafe24SsurroundAir;
+    font-size: 40px;
+}
+
+#in_title2_line{
+    background-color: white;
+    width: 660px;
+    height: 1px;
+    border-radius: 20%;
+}
+
+#in_title2 div:last-child {
+    font-family: Cafe24SsurroundAir;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/* info */
 #info{
     position: relative;
-    width: 1372px;
-    height: 834px;
+    height:100vh;
+    display: block;
 }
 
-#sub{
-    position: absolute;
-    width: 185px;
-    height: 74px;
-    left: 598px;
-    top: 936px;
-}
 
-#text_contents{
-    position: absolute;
-    width: 997px;
-    height: 89px;
-    left: 219px;
-    top: 1064px;
-}
+
+
