@@ -18,6 +18,11 @@ body, html {
     height: 100%;}
 
 
+.title_s{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+}
+
 .subtitle{
   color: #ffb922;
   font-family: 'Cafe24Ssurround';
