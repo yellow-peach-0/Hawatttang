@@ -41,12 +41,14 @@
     font-size: 40px;
 }
 
+
 #in_title2_line{
     background-color: white;
     width: 660px;
     height: 1px;
     border-radius: 20%;
 }
+
 
 #in_title2 div:last-child {
     font-family: Cafe24SsurroundAir;
@@ -61,6 +63,15 @@
     display: block;
 }
 
+#info_sub{
+    text-align: center;
+    align-items: center;
+    width: 111px;
+    height: 0px;
+    left: 672px;
+    top: 974px;
+
+}
 
 
 
