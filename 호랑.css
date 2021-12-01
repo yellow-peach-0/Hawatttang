@@ -1,5 +1,14 @@
-.title{
+#title{
   color: white;
-  font-family: 'Cafe24Ssurround';
+  font-family: 'Cafe24SsurroundAir';
   font-size: 55px;
+}
+
+#title_b{
+  font-family: 'Cafe24Ssurround';
+}
+
+#sud-head{
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 40px;
 }
