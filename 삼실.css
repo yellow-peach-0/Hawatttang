@@ -36,25 +36,26 @@
     top:53%;
 }
 
-#in_title2 div:first-child{
+#in_title2_sub{
     font-family: Cafe24SsurroundAir;
     font-size: 40px;
 }
 
 
-#in_title2_line{
-    background-color: white;
-    width: 660px;
-    height: 1px;
-    border-radius: 20%;
-}
-
-
-#in_title2 div:last-child {
+#in_title2_text {
     font-family: Cafe24SsurroundAir;
     font-size: 25px;
     line-height: 50px;
 }
+
+
+#in_title2_line{
+    background-color: white;
+    width: 662.14px;
+    height: 0.14px;
+    border-radius: 20%;
+}
+
 
 /* info */
 #info{
@@ -64,13 +65,11 @@
 }
 
 #info_sub{
-    text-align: center;
-    align-items: center;
     width: 111px;
     height: 0px;
-    left: 672px;
-    top: 974px;
-
+    left: 100px;
+    top: 50%;
+    font-size: 40px;
 }
 
 
