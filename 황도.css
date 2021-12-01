@@ -1,0 +1,19 @@
+/* nav */
+
+#nav{
+  position: fixed;
+  top: 50%;
+  margin-top: -85px;
+  right: 100px;
+  display: flex;
+  height: 170px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
