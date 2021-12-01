@@ -1,0 +1,25 @@
+/* nav */
+
+#nav{
+  position: fixed;
+  top: 50%;
+  margin-top: -85px;
+  right: 40px;
+  display: flex;
+  height: 170px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.navhover{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+}
