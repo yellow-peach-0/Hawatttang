@@ -26,7 +26,9 @@ body, html {
 
 .subtitle{
   color: #ffb922;
-  font-family: 'Cafe24SsurroundAir';
+  font-family: 'Cafe24Ssurround';
+  font-size: 40px;
+  text-align:center;
 }
 
 .text_g{
