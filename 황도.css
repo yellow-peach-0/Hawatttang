@@ -1,3 +1,8 @@
+/* title */
+#title {
+  height: 100vh;
+}
+
 /* nav */
 
 #nav{
@@ -23,3 +28,28 @@
   font-family: 'Cafe24SsurroundAir';
   font-size: 20px;
 }
+
+/* infocon */
+
+#explain {
+  display: block;
+  position: relative;
+  height: 100vh;
+}
+
+#in_explain {
+  width: 900px;
+  line-height: 2;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
