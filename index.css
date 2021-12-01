@@ -18,11 +18,6 @@ body, html {
     height: 100%;}
 
 
-.title{
-  color: white;
-  font-family: 'Cafe24Ssurround';
-  font-size: 55px;
-}
 
 .title_s{
   color: white;
@@ -44,11 +39,6 @@ body, html {
   font-family: 'Cafe24SsurroundAir';
 }
 
-.menubar{
-  color: white;
-  font-family: 'Cafe24SsurroundAir';
-  font-size: 20px;
-}
 
 body{
   height: 100%;
