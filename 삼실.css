@@ -3,7 +3,29 @@
     margin: 0;
     padding: 0;
     height: 7591px;
-    background-image : url(H834RA_00000028324747609947595850000001930161648492583817_.png);
+    background-image : url(./image/H834RA_00000028324747609947595850000001930161648492583817_.png);
     background-repeat : no-repeat;
     background-size: cover;
+}
+
+#info{
+    position: relative;
+    width: 1372px;
+    height: 834px;
+}
+
+#sub{
+    position: absolute;
+    width: 185px;
+    height: 74px;
+    left: 598px;
+    top: 936px;
+}
+
+#text_contents{
+    position: absolute;
+    width: 997px;
+    height: 89px;
+    left: 219px;
+    top: 1064px;
 }
