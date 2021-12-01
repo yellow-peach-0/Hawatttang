@@ -58,19 +58,64 @@
 
 
 /* info */
+
 #info{
     position: relative;
     height:100vh;
     display: block;
 }
 
-#info_sub{
-    width: 111px;
-    height: 0px;
-    left: 100px;
-    top: 50%;
-    font-size: 40px;
+#artBoard{
+    position: relative;
+    width: 74px;
+    height: 74px;
+    left: 7%;
+    top: 25px;
+
 }
 
+#info_sub{ 
+    position: absolute;
+    height: 0;
+    left: 43%;
+    top: 20%;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    
+}
 
+#info_text{
+    position: absolute;
+    left: 32%;
+    top: 40%;
+    letter-spacing: -0.011em;
+    line-height:40px;
+    text-align: center;
+}
 
+#consumer {
+    border-radius: 50%;
+    position: absolute;
+    width: 362px;
+    height: 362px;
+    left: 385px;
+    top: 60%;
+    background: rgba(254, 174, 0, 0.28);
+    text-align: center;
+    line-height: 350px;
+}
+
+#producter {
+    border-radius: 50%;
+    position: absolute;
+    width: 362px;
+    height: 362px;
+    left: 691px;
+    top: 60%;
+    background: rgba(254, 174, 0, 0.28);
+    text-align: center;
+    line-height: 350px;
+}
+
+ 
+ 
