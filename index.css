@@ -24,23 +24,32 @@ body, html {
   text-align:center;
 }
 
-.subtitle_w{
+.text_sub{
   color: white;
   font-family: 'Cafe24Ssurround';
   font-size: 20px;
 }
 
-.
+.text_bold{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text_contents{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 25px;
+}
 
 .text_g{
   color: #13682f;
   font-family: 'Cafe24SsurroundAir';
+
 }
 
-.text_w{
-  color: white;
-  font-family: 'Cafe24SsurroundAir';
-}
+
 
 
 body{
