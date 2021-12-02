@@ -1,8 +1,3 @@
-/* title */
-#title {
-  height: 100vh;
-}
-
 /* nav */
 
 #nav{
@@ -43,7 +38,7 @@
   font-family: 'Cafe24SsurroundAir';
   font-size: 25px;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -51,5 +46,82 @@
   justify-content: space-between;
 }
 
+/* process */
+#process{
+  position: relative;
+  height: 100vh;
+}
 
+#process_sub{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 17%;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
+
+#c1, #c2, #c3 {
+  border-radius: 50%;
+  border: solid 2.5px white;
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  top: 35%;
+}
+
+#c1 {
+  left: 15%;
+}
+
+#c2 {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#c3 {
+  right: 15%;
+}
+
+.c_text{
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 234px;
+  height: 147px;
+  text-align: center;
+
+}
+
+.c_text div{
+font-family: Cafe24Ssurroundair;
+font-size: 30px;
+color: white;
+}
+
+.c_list ul{
+  position:absolute;
+  left: 56%;
+  transform: translate(-50%, 0);
+  font-size: 20px;
+  text-align: left;
+  width: 188px;
+  height: 105px;
+}
+
+/* menual-concept */
+
+#ds_concept{
+  background-color: antiquewhite;
+}
+
+#design_sub{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 8%;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
 

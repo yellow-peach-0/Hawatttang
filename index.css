@@ -16,7 +16,7 @@
 body, html { 
     margin: 0;
     padding: 0;
-    height: 100%;}
+  }
 
 /* color, size, weight, font-family, lettering-space */
 .subtitle{
@@ -56,12 +56,13 @@ body, html {
 .text_g{
   color: #13682f;
   font-family: 'Cafe24SsurroundAir';
-
 }
 
-
-body{
-  height: 100%;
+.box{
+  position: relative;
+  height: 100vh;
+  display: block;
 }
+
 
 

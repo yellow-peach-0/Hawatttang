@@ -8,8 +8,7 @@
     background-size: cover;
 }
 
-/* title */
-
+/* Title */
 #title {
     position: relative;
     height: 100vh;
@@ -33,14 +32,12 @@
     position: absolute;
     color: white;
     right: 14%;
-    top:53%;
-}
+    top:53%;}
 
 #in_title2_sub{
     font-family: Cafe24SsurroundAir;
     font-size: 40px;
 }
-
 
 #in_title2_text {
     font-family: Cafe24SsurroundAir;
@@ -51,10 +48,9 @@
 
 #in_title2_line{
     background-color: white;
-    width: 662px;
+    width: 662.14px;
     height: 1px;
     border-radius: 20%;
-    margin: 2%;
 }
 
 
@@ -66,20 +62,13 @@
     display: block;
 }
 
-#artBoard{
-    position: relative;
-    width: 74px;
-    height: 74px;
-    left: 7%;
-    top: 25px;
 
-}
 
 #info_sub{ 
     position: absolute;
     height: 0;
     left: 43%;
-    top: 20%;
+    top: 5%;
     font-size: 40px;
     letter-spacing: 0.1em;
     
@@ -88,7 +77,7 @@
 #info_text{
     position: absolute;
     left: 32%;
-    top: 40%;
+    top: 25%;
     letter-spacing: -0.011em;
     line-height:40px;
     text-align: center;
@@ -100,7 +89,7 @@
     width: 362px;
     height: 362px;
     left: 28%;
-    top: 60%;
+    top: 45%;
     background: rgba(254, 174, 0, 0.28);
     text-align: center;
     line-height: 350px;
@@ -112,11 +101,82 @@
     width: 362px;
     height: 362px;
     left: 50%;
-    top: 60%;
+    top: 45%;
     background: rgba(254, 174, 0, 0.28);
     text-align: center;
     line-height: 350px;
 }
 
- 
- 
+ /*menual-logo*/
+
+ #logoType_text{
+    position: absolute;
+    width: 289.76px;
+    height: 0px;
+    left: 45%;
+    top: 152px;
+    letter-spacing: 0.135em;
+ }
+
+#threeImg{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 821px;
+    height: 403px;
+}
+
+#firstImg{
+    position: absolute;
+    width: 212px;
+    left: 50%;
+    top: 10%;
+    margin-left: -100px;
+}
+
+#firstImg_shape{
+    z-index: 1;
+    border-radius: 50%;
+    background: #89B397;
+    position: absolute;
+    width: 271px;
+    height: 271px;
+    left: 0%;
+    top: 50%;
+}
+
+
+ #secondImg{
+    z-index: 2;
+    border-radius: 50%;
+    background: #CBDED1;
+    position: absolute;
+    width: 403px;
+    left: 50%;
+    margin-left: -200px;
+    
+    
+ }
+
+ #thirdImg{
+     z-index: 1;
+    border-radius: 50%;
+    background: #89B397;
+    position: absolute;
+    width: 213px;
+    right: 50%;
+    top: 10%;
+    margin-right: -100px;
+ }
+
+#thirdImg_shape{
+    z-index: 1;
+    border-radius: 50%;
+    background: #89B397;
+    position: absolute;
+     width: 271px;
+    height: 271px;
+    right: 0%;
+    top: 50%;
+}
