@@ -8,6 +8,24 @@
     background-size: cover;
 }
 
+/* Title */
+#title {
+    position: relative;
+    height: 100vh;
+}
+
+#in_title{
+    top: 27%;
+    left: 13%;
+    position: absolute;
+    color: white;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 55px;
+}
+
+#title_b {
+    font-family:Cafe24Ssurround;
+}
 
 
 
