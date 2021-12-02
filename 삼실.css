@@ -259,6 +259,13 @@
     box-sizing: border-box;
 }
 
+#arrow1{
+    position: absolute;
+    width: 100px;
+    left: 421px;
+    top: 317px;
+}
+
 #secondCircle{
     z-index: 2;
     border-radius: 50%;
@@ -273,6 +280,16 @@
     box-sizing: border-box;
 }
 
+#arrow2{
+    position: absolute;
+    width: 100px;
+    left: 421px;
+    top: 461px;
+
+}
+
+
+
 #thirdCircle{
     z-index: 1;
     border-radius: 50%;
@@ -285,6 +302,13 @@
     background: #07893C;
     border: 3px solid #FFFFFF;
     box-sizing: border-box;
+}
+
+#arrow3{
+    top: 605px;
+    position: absolute;
+    width: 100px;
+    left: 421px;
 }
 
 #logoConcept_text{
