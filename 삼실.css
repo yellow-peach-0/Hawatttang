@@ -130,8 +130,8 @@
 #firstImg{
     position: absolute;
     width: 212px;
-    left: 50%;
-    top: 10%;
+    left: 49%;
+    top: 7%;
     margin-left: -100px;
 }
 
@@ -149,24 +149,31 @@
 
  #secondImg{
     z-index: 2;
+    position: absolute;
+    width: 403px;
+    left: 48%;
+    margin-left: -200px;
+    top: 0%;
+ }
+ 
+ #secondImg_shape{
+    z-index: 2;
     border-radius: 50%;
     background: #CBDED1;
     position: absolute;
     width: 403px;
+    height: 403px;
     left: 50%;
+    top: 20%;
     margin-left: -200px;
-    
-    
  }
 
+
  #thirdImg{
-     z-index: 1;
-    border-radius: 50%;
-    background: #89B397;
     position: absolute;
     width: 213px;
-    right: 50%;
-    top: 10%;
+    right: 49%;
+    top: 7%;
     margin-right: -100px;
  }
 
@@ -175,7 +182,7 @@
     border-radius: 50%;
     background: #89B397;
     position: absolute;
-     width: 271px;
+    width: 271px;
     height: 271px;
     right: 0%;
     top: 50%;
