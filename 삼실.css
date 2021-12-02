@@ -187,3 +187,127 @@
     right: 0%;
     top: 50%;
 }
+
+/*logoinfo*/
+#logoInfo{
+    position: absolute;
+    position: relative;
+    height:100vh;
+    display: block;
+    top:192px
+}
+
+
+#principle_text{
+    position: absolute;
+    width: 289.76px;
+    height: 0px;
+    left: 220px;
+    top: 161px;
+    letter-spacing: 0.135em;
+}
+
+#principle_line{
+    position: absolute;
+    height: 0px;
+    left: 220px;
+    top: 181px;
+    border-radius: 2px;
+    width: 283px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(.png);
+    border: 1.5px solid #FFFFFF;
+    margin-top: 9px;
+}
+
+
+
+#friendly{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 20%;
+    top: 45%
+}
+
+#nature{
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    left: 25%;
+    top: 45%;
+}
+
+#connect{
+    position: absolute;
+    width: 123px;
+    height: 29px;
+    left: 20%;
+    top: 45%;
+}
+
+#firstCircle{
+    z-index: 3;
+    border-radius: 50%;
+    position: absolute;
+    width: 183px;
+    height: 179px;
+    left: 238px;
+    top: 230px;
+
+    background: #07893C;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+#secondCircle{
+    z-index: 2;
+    border-radius: 50%;
+    position: absolute;
+    width: 183px;
+    height: 179px;
+    left: 238px;
+    top: 367px;
+
+    background: #13682F;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+#thirdCircle{
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    width: 183px;
+    height: 180px;
+    left: 238px;
+    top: 511px;
+
+    background: #07893C;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+#logoConcept_text{
+    position: absolute;
+    width: 574px;
+    height: 0px;
+    left: 596px;
+    top: 161px;
+    letter-spacing: 0.135em;
+}
+
+
+
+#logoConcept_line{
+    position: absolute;
+    height: 0px;
+    left: 596px;
+    top: 181px;
+    width: 561px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(.png);
+    border: 1.5px solid #FFFFFF;
+    margin-top: 9px;
+    border-radius: 2px;
+}
+
+
