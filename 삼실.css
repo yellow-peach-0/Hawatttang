@@ -336,6 +336,58 @@
 
 
 .logo_img_s{
-width: 120px;    
-margin: 0;
+    width: 120px;    
+    margin: 0;
+}
+
+#whiteSun {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 623px;
+    top: 236px;
+}
+
+#socury{
+    position: absolute;
+    width: 199px;
+    height: 121px;
+    left: 590px;
+    top: 405px;
+}
+
+#connected {
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    left: 623px;
+    top: 556px;
+}
+
+#sun{
+    line-height: 70%;
+    position: absolute;
+    width: 338px;
+    height: 95px;
+    left: 819px;
+    top: 29%;
+
+}
+
+#farm{
+    position: absolute;
+    width: 297px;
+    height: 52px;
+    left: 818px;
+    top: 55%;
+    line-height: 148%;
+}
+
+#connect_text{
+    position: absolute;
+    width: 267px;
+    height: 74px;
+    left: 818px;
+    top: 75%;
+    line-height: 148%;
 }
