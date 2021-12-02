@@ -294,3 +294,144 @@ color: white;
 #rc3{
   bottom: 9%;
 }
+
+/* color */
+
+#color_sub{
+  position: absolute;
+  top: 10%;
+  left: 47.55%;
+}
+
+#color_box{
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  top: 19%
+}
+
+.cc{
+  width: 13vw;
+  height: 13vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#cc1{
+  top: 17%;
+  left: 14.9%;
+  background-color: #FEE010;
+}
+
+
+#cc2{
+  bottom: 17%;
+  left: 14.9%;
+  background-color: #0F682F;
+}
+
+
+#cc3{
+  top: 17%;
+  left: 28%;
+  background-color: #0F682F;
+}
+
+
+#cc4{
+  bottom: 17%;
+  left: 28%;
+  background-color: #FEE010;
+}
+
+#color_code{
+  font-family: Cafe24Ssurroundair;
+  font-size: 30px; 
+  position: absolute;
+  top: 19%;
+  left: 48.8%;
+  word-spacing: 70px;
+}
+
+#color_info{
+  font-family: Cafe24Ssurroundair;
+  font-size: 25px;
+  position: absolute;
+  left: 48.8%;
+  top: 34%;
+}
+
+/* typo */
+
+#typo div{
+  position: absolute;
+    left: 17.2%;
+}
+
+#typo_sub{
+  top: 16.5%;
+}
+
+.tl{
+  width: 64.5%;
+}
+
+#t1{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 50px;
+  letter-spacing: -1.1%;
+  top: 33.3%;
+}
+
+#tl1{
+  top: 41.9%;
+  border: 1.5px solid #FFFFFF;
+}
+
+#t2{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 40px;
+  top: 44.4%;
+}
+
+#t3{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 20px;
+  top: 64.2%;
+}
+
+#tl2 {
+  border: 1px solid #FFFFFF;
+  top: 67.3%;
+}
+
+#t4{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 50px;
+  top: 69.4%;
+}
+
+#tl3{
+  border: 0.5px solid #FFFFFF;
+  top: 76.6%;
+}
+
+#t5{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 20px;
+  top: 78.6%;
+}
+
+
+
+
+
