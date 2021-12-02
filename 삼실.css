@@ -121,14 +121,12 @@
 #firstImg{
     position: absolute;
     width: 403px;
-    height: 330px;
     left: 476px;
     top: 260px;
 }
  #secondImg{
     position: absolute;
     width: 403px;
-    height: 330px;
     left: 476px;
     top: 260px;
  }
@@ -136,7 +134,6 @@
  #thirdImg{
     position: absolute;
     width: 403px;
-    height: 330px;
     left: 476px;
     top: 260px;
  }
