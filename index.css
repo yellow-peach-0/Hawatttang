@@ -16,7 +16,7 @@
 body, html { 
     margin: 0;
     padding: 0;
-    height: 100%;}
+  }
 
 /* color, size, weight, font-family, lettering-space */
 .subtitle{
@@ -56,20 +56,7 @@ body, html {
 .text_g{
   color: #13682f;
   font-family: 'Cafe24SsurroundAir';
-
 }
 
 
-body{
-  height: 100%;
-}
-
-#artBoard{
-    position: relative;
-    width: 74px;
-    height: 74px;
-    left: 7%;
-    top: 25px;
-
-}
 
