@@ -365,5 +365,73 @@ color: white;
   top: 34%;
 }
 
+/* typo */
+
+#typo div{
+  position: absolute;
+    left: 17.2%;
+}
+
+#typo_sub{
+  top: 16.5%;
+}
+
+.tl{
+  width: 64.5%;
+}
+
+#t1{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 50px;
+  letter-spacing: -1.1%;
+  top: 33.3%;
+}
+
+#tl1{
+  top: 41.9%;
+  border: 1.5px solid #FFFFFF;
+}
+
+#t2{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 40px;
+  top: 44.4%;
+}
+
+#t3{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 20px;
+  top: 64.2%;
+}
+
+#tl2 {
+  border: 1px solid #FFFFFF;
+  top: 67.3%;
+}
+
+#t4{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 50px;
+  top: 69.4%;
+}
+
+#tl3{
+  border: 0.5px solid #FFFFFF;
+  top: 76.6%;
+}
+
+#t5{
+  color: white;
+  font-family: 'Cafe24Ssurround';
+  font-size: 20px;
+  top: 78.6%;
+}
+
+
+
 
 
