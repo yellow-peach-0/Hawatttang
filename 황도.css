@@ -112,9 +112,8 @@ color: white;
 
 /* menual-concept */
 
-#ds_concept{
-  background-color: antiquewhite;
-}
+
+
 
 #design_sub{
   position: absolute;
@@ -125,3 +124,173 @@ color: white;
   letter-spacing: 0.1em;
 }
 
+/* key */
+#key{
+  position: absolute;
+  left: 19%;
+  top: 27%;
+  width: 34%;
+  height: 63%;
+}
+
+#key_line{
+  width: 33vw;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(.png);
+  border: 1.5px solid #FFFFFF;
+  margin-top: 4px;
+}
+
+
+
+.kc{
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 13vw;
+  height: 13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cafe24Ssurroundair;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+}
+
+#kc1, #kc2, #kc3{
+  left: 20%;
+}
+
+#kc6, #kc4, #kc5{
+  left: 30%;
+}
+
+#kc1, #kc4{
+  top: 34%;
+}
+
+#kc2, #kc5{
+  top: 51%;
+}
+
+#kc3, #kc6{
+  bottom: 9%; 
+}
+
+#kc1, #kc3, #kc5{
+  background-color: #13682F;
+}
+
+#kc2, #kc4, #kc6{
+  background-color: #07893C;
+}
+
+#kc6{
+  z-index: 5;
+}
+
+#kc5{
+  z-index: 4;
+}
+
+#kc4{
+  z-index: 3;
+}
+
+#kc3{
+  z-index: 2;
+}
+
+#kc2{
+  z-index: 1;
+}
+
+.karrow{
+  width: 10px;
+  height: 10px;
+  margin-left: 0.5rem;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transform: rotate(45deg);
+  border-radius: 2px;
+  position: absolute;
+  left: 48.8%;
+}
+
+.kline{
+  position: absolute;
+  left: 43%;
+  border: 1.5px solid #FFFFFF;
+  width: 100px;
+}
+
+#kl1{
+  top: 45%;
+}
+
+#kl2{
+  top: 62%;
+}
+
+#kl3{
+  top: 79%;
+}
+
+#ka1{
+  top: 44.4%;
+}
+
+#ka2{
+  top: 61.4%;
+}
+
+#ka3{
+  top: 78.4%;
+}
+
+
+/* rule */
+
+#rule{
+  position: absolute;
+  top: 27%;
+  right: 17%;
+  width: 21%;
+  height: 63%;
+}
+
+#rule_line{
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), url(.png);
+  border: 1.5px solid #FFFFFF;
+  margin-top: 4px;
+  width: 20vw;
+  margin-top: 4px;
+}
+
+.rc{
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 13vw;
+  height: 13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cafe24Ssurroundair;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 157, 68, 0.38);
+  right: 23%;
+}
+
+#rc1{
+  top: 34%;
+}
+
+#rc2{
+  top: 51%;
+}
+
+#rc3{
+  bottom: 9%;
+}
