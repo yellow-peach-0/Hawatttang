@@ -8,54 +8,7 @@
     background-size: cover;
 }
 
-/* title */
 
-#title {
-    position: relative;
-    height: 100vh;
-}
-
-#in_title{
-    top: 27%;
-    left: 13%;
-    position: absolute;
-    color: white;
-    font-family: 'Cafe24SsurroundAir';
-    font-size: 55px;
-}
-
-#title_b {
-    font-family:Cafe24Ssurround;
-}
-
-#in_title2{
-    text-align: right;
-    position: absolute;
-    color: white;
-    right: 14%;
-    top:53%;
-}
-
-#in_title2_sub{
-    font-family: Cafe24SsurroundAir;
-    font-size: 40px;
-}
-
-
-#in_title2_text {
-    font-family: Cafe24SsurroundAir;
-    font-size: 25px;
-    line-height: 50px;
-}
-
-
-#in_title2_line{
-    background-color: white;
-    width: 662px;
-    height: 1px;
-    border-radius: 20%;
-    margin: 2%;
-}
 
 
 /* info */
