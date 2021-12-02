@@ -102,11 +102,26 @@ color: white;
 
 .c_list ul{
   position:absolute;
-  left: 50%;
+  left: 56%;
   transform: translate(-50%, 0);
   font-size: 20px;
   text-align: left;
   width: 188px;
   height: 105px;
+}
+
+/* menual-concept */
+
+#ds_concept{
+  background-color: antiquewhite;
+}
+
+#design_sub{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 8%;
+  font-size: 40px;
+  letter-spacing: 0.1em;
 }
 

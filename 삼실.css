@@ -49,7 +49,7 @@
 #in_title2_line{
     background-color: white;
     width: 662.14px;
-    height: 0.14px;
+    height: 1px;
     border-radius: 20%;
 }
 
@@ -107,14 +107,7 @@
     line-height: 350px;
 }
 
- /*menual*/
-
-#menual{
-    position: relative;
-    height:100vh;
-    display: block;
-    top: 3336px;
-}
+ /*menual-logo*/
 
  #logoType_text{
     position: absolute;

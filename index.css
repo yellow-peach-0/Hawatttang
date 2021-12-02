@@ -58,5 +58,11 @@ body, html {
   font-family: 'Cafe24SsurroundAir';
 }
 
+.box{
+  position: relative;
+  height: 100vh;
+  display: block;
+}
+
 
 
