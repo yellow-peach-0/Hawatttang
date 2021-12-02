@@ -64,4 +64,12 @@ body{
   height: 100%;
 }
 
+#artBoard{
+    position: relative;
+    width: 74px;
+    height: 74px;
+    left: 7%;
+    top: 25px;
+
+}
 
