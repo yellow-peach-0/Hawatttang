@@ -24,10 +24,20 @@ body, html {
   font-family: 'Cafe24Ssurround';
 }
 
+.title_logo{
+  position: relative;
+  width: 74px;
+  height: 74px;
+  left: 7%;
+  top: 25px;
+  letter-spacing: 10%;
+}
+
 .text_sub{
   color: white;
   font-family: 'Cafe24Ssurround';
   font-size: 20px;
+  letter-spacing: 13.5%;
 }
 
 .text_bold{
@@ -48,8 +58,6 @@ body, html {
   font-family: 'Cafe24SsurroundAir';
 
 }
-
-
 
 
 body{
