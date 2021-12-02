@@ -66,14 +66,7 @@
     display: block;
 }
 
-#artBoard{
-    position: relative;
-    width: 74px;
-    height: 74px;
-    left: 7%;
-    top: 25px;
 
-}
 
 #info_sub{ 
     position: absolute;
