@@ -50,6 +50,28 @@
     text-align: center;
     line-height: 350px;
 }
+/*identity*/
+#backgroundCircle1{
+    position: absolute;
+    width: 469.94px;
+    height: 469.94px;
+    left: 68px;
+    top: 222px;
+    background: #106F32;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    border-radius: 50%;
+}
+#backgroundCircle2{
+    position: absolute;
+    width: 469.94px;
+    height: 469.94px;
+    left: 453.71px;
+    top: 222px;
+    background: #106F32;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    border-radius: 50%;
+}
+
 
  /*menual-logo*/
 
