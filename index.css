@@ -70,9 +70,10 @@ body, html {
     margin: 0;
     padding: 0;
     height: auto;
-    background-image : url(./image/배경.png);
+    background-image : url(./image/배경.svg);
     background-repeat : no-repeat;
     background-size: cover;
+    background-color: #13682f;
 }
 
 
