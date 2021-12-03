@@ -2,9 +2,9 @@
 .background{
     margin: 0;
     padding: 0;
-    height: 7591px;
+    height: 20000px;
     background-image : url(./image/배경.png);
-    background-repeat : no-repeat;
+    background-repeat : repeat-y;
     background-size: cover;
 }
 
@@ -397,13 +397,6 @@
     position: relative;
     height:100vh;
     display: block;
-    top:192px;
-    margin: 0;
-    padding: 0;
-    height: 7591px;
-    background-image: url(./image/배경2.png);
-    background-size: cover;
-    background-repeat : repeat;
 }
 
 #icon_text{
