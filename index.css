@@ -65,5 +65,15 @@ body, html {
   display: block;
 }
 
+/* backgroud */
+.background{
+    margin: 0;
+    padding: 0;
+    height: 20000px;
+    background-image : url(./image/배경.png);
+    background-repeat : repeat-y;
+    background-size: cover;
+}
+
 
 
