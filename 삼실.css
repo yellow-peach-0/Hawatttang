@@ -190,7 +190,6 @@
 
 /*logoinfo*/
 #logoInfo{
-    position: absolute;
     position: relative;
     height:100vh;
     display: block;
@@ -390,4 +389,132 @@
     left: 818px;
     top: 75%;
     line-height: 148%;
+}
+
+/*icon*/
+
+#icon{
+    position: relative;
+    height:100vh;
+    display: block;
+    top:192px;
+    margin: 0;
+    padding: 0;
+    height: 7591px;
+    background-image: url(./image/배경2.png);
+    background-size: cover;
+    background-repeat : repeat;
+}
+
+#icon_text{
+    position: absolute;
+    width: 112.22px;
+    height: 0px;
+    left: 262px;
+    top: 151px;
+}
+
+#icon1{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 865px;
+    top: 394px;
+}
+
+
+#icon2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1005px;
+    top: 394px;
+}
+
+#icon3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 725px;
+    top: 394px;
+}
+
+#icon4{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 595px;
+    top: 544px;
+}
+
+#icon5{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 865px;
+    top: 544px;
+}
+
+#icon6{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1005px;
+    top: 244px;
+}
+
+#icon7{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 865px;
+    top: 244px;
+}
+
+#icon8{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 725px;
+    top: 544px;
+}
+
+#icon9{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1005px;
+    top: 544px;
+}
+
+#icon10{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 725px;
+    top: 244px;
+}
+
+#icon11{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 585px;
+    top: 394px;
+}
+
+#icon12{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 585px;
+    top: 244px;
+}
+
+#bigImg{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 222px;
+    top: 289px;
 }
