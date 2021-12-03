@@ -31,6 +31,7 @@ body, html {
   left: 7%;
   top: 25px;
   letter-spacing: 10%;
+  margin-right: 15px;
 }
 
 .text_sub{
@@ -62,6 +63,16 @@ body, html {
   position: relative;
   height: 100vh;
   display: block;
+}
+
+/* backgroud */
+.background{
+    margin: 0;
+    padding: 0;
+    height: 20000px;
+    background-image : url(./image/배경.png);
+    background-repeat : repeat-y;
+    background-size: cover;
 }
 
 
