@@ -1,10 +1,5 @@
 /* Title */
-#title {
-    position: relative;
-    height: 100vh;
-}
-
-#in_title{
+#t_text1{
     top: 27%;
     left: 13%;
     position: absolute;
@@ -13,36 +8,60 @@
     font-size: 55px;
 }
 
-#title_b {
+#t_text1 span:nth-child(2) {
     font-family:Cafe24Ssurround;
 }
 
-#in_title2{
-    text-align: right;
-    position: absolute;
-    color: white;
-    right: 14%;
-    top:53%;
+#t_text2{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 35px;
+  position: absolute;
+  top: 57.7%;
+  left: 36.5%;
 }
 
-#in_title2_sub{
-    font-family: Cafe24SsurroundAir;
-    font-size: 40px;
+#ttl{
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  top: 64%;
+  left: 36.5%;
+  width: 700px;
 }
 
-#in_title2_text {
-    font-family: Cafe24SsurroundAir;
-    font-size: 25px;
-    line-height: 50px;
+#ttbox{
+  position: absolute;
+  top: 66.5%;
+  left: 36.5%;
+  display: flex;
+  justify-content: space-between;
+  width: 587px;
+}
+
+#ttbox div div:first-child{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+  text-align: center;
+  height: 37px;
+}
+
+#ttbox div div:last-child{
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 15px;
+  line-height: 23px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+#ttspace{
+  width: 14px;
 }
 
 
-#in_title2_line{
-    background-color: white;
-    width: 662.14px;
-    height: 1px;
-    border-radius: 20%;
-}
 /* nav */
 
 #nav{
@@ -56,28 +75,21 @@
   justify-content: space-between;
 }
 
-.circle {
+.n_circle {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   background-color: white;
 }
 
-.navhover{
-  color: white;
-  font-family: 'Cafe24SsurroundAir';
-  font-size: 20px;
-}
-
 /* infocon */
-
 #explain {
   display: block;
   position: relative;
   height: 100vh;
 }
 
-#in_explain {
+#e_text{
   width: 900px;
   line-height: 2;
   font-family: 'Cafe24SsurroundAir';
@@ -92,11 +104,6 @@
 }
 
 /* process */
-#process{
-  position: relative;
-  height: 100vh;
-}
-
 #process_sub{
   position: absolute;
   left: 50%;
@@ -106,7 +113,7 @@
   letter-spacing: 0.1em;
 }
 
-#c1, #c2, #c3 {
+#pc1, #pc2, #pc3 {
   border-radius: 50%;
   border: solid 2.5px white;
   width: 25vw;
@@ -115,20 +122,20 @@
   top: 35%;
 }
 
-#c1 {
+#pc1 {
   left: 15%;
 }
 
-#c2 {
+#pc2 {
   left: 50%;
   transform: translate(-50%, 0);
 }
 
-#c3 {
+#pc3 {
   right: 15%;
 }
 
-.c_text{
+.pc_text{
   position: absolute;
   left: 50%;
   top: 55%;
@@ -139,13 +146,13 @@
 
 }
 
-.c_text div{
+.pc_text div{
 font-family: Cafe24Ssurroundair;
 font-size: 30px;
 color: white;
 }
 
-.c_list ul{
+.pc_list ul{
   position:absolute;
   left: 56%;
   transform: translate(-50%, 0);
@@ -185,14 +192,12 @@ color: white;
   margin-top: 4px;
 }
 
-
-
 .kc{
   border: 3px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 50%;
-  width: 13vw;
-  height: 13vw;
+  width: 201px;
+  height: 201px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -411,7 +416,6 @@ color: white;
 }
 
 /* typo */
-
 #typo div{
   position: absolute;
     left: 17.2%;
