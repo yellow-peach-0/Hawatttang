@@ -431,6 +431,100 @@ color: white;
   top: 78.6%;
 }
 
+/* value */
+#value_sub{
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 40px;
+  height: 74px;
+}
+
+#vt{
+  position: absolute;
+  top: 21.1%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#vt2{
+  position: absolute;
+  width: 930px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 40.1%;
+}
+
+#vl{
+  position: absolute;
+  top: 44.7%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 930px;
+  border: 1.5px solid white;
+}
+
+.vc{
+  position: absolute;
+  top: 50%;
+  width: 342px;
+  height: 342px;
+  border-radius: 50%;
+  background-color: rgba(0, 157, 68, 0.38);
+  padding: 0;
+}
+
+.vct{
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 30px;
+  letter-spacing: 0.135em;
+}
+
+.vct2{
+  position: absolute;
+  top: 42.6%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  width: 246px;
+}
+
+#vc1{
+  left: 16.4%;
+}
+
+#vc2{
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#vc3{
+  right: 16.4%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
