@@ -2,6 +2,7 @@
 .background{
     margin: 0;
     padding: 0;
+    width: 100vw;
     height: 20000px;
     background-image : url(./image/배경.png);
     background-repeat : repeat-y;
@@ -9,10 +10,6 @@
 }
 
 /* Title */
-#title {
-    position: relative;
-    height: 100vh;
-}
 
 #in_title{
     top: 27%;
@@ -55,15 +52,6 @@
 
 
 /* info */
-
-#info{
-    position: relative;
-    height:100vh;
-    display: block;
-}
-
-
-
 #info_sub{ 
     position: absolute;
     height: 0;
@@ -189,14 +177,6 @@
 }
 
 /*logoinfo*/
-#logoInfo{
-    position: relative;
-    height:100vh;
-    display: block;
-    top:50%
-}
-
-
 #principle_text{
     position: absolute;
     width: 289.76px;
@@ -217,8 +197,6 @@
     border: 1.5px solid #FFFFFF;
     margin-top: 9px;
 }
-
-
 
 #friendly{
     position: absolute;
@@ -392,12 +370,6 @@
 }
 
 /*icon*/
-
-#icon{
-    position: relative;
-    height:100vh;
-    display: block;
-}
 
 #icon_text{
     position: absolute;
