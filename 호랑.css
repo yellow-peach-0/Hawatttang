@@ -12,3 +12,14 @@
 width: 120px;    
 margin: 0;
 }
+
+.credit{
+  width: 800%;
+  height: 249.5px;
+  justify-content: center
+}
+
+#credit_title_box{
+  width: 80%;
+  height: 30px;
+}
