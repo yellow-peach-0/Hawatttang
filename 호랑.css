@@ -77,8 +77,6 @@ margin: 50px;
 /* credits */
 
 #tytBox{
-  width: 285;
-  height: 74;
   display: flex;
   justify-content: center;
   align-items: center; 
