@@ -639,10 +639,12 @@
     
 }
 
-#bigImg{
+
+
+.slide1{
     position: absolute;
     width: 330px;
     height: 330px;
-    left: 16%;
-    top: 34%;
+    left: 222px;
+    top: 289px;
 }
