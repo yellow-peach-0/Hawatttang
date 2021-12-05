@@ -224,46 +224,50 @@
                 <div id="backgroundCircle2"></div>
                 <div id="backgroundCircle3"></div>
             </div>
-            <div class="inner-list">
-                <input type="radio" name="slide" id="identityContents1" checked>
-                <input type="radio" name="slide" id="identityContents2">
 
-                <div class="identityContents">
+            <div class="section">
+                <input type="radio" name="slide" id="slide01" checked>
+                <input type="radio" name="slide" id="slide02">
+
+                <div class="slidewrap">
                     <ul class="slidelist">
                         <li>
-                            <a>
-                                <label for="identityContents2" class="left"></label>
-                                <div class="identity_box">
-                                    <div id="identity_text" class="text_sub">IDENTITY</div>
-                                    <div class="identity_line"></div>
-                                    <div class="identityTitle">우리는 해와 땅 사이에 있는 사람들을 잇습니다</div>
-                                    <div class="identityBody">
-                                        농산물은 해와 땅의 합작입니다. <br>
-                                        해와 땅이 엮이는 공간인, 밭에서 농산물이 생겨납니다. <br>
-                                        해와 땅을 엮어주는 밭처럼 농민과 소비자를 엮어주고 싶습니다.
-                                    </div>
+                            <div class="identity_box">
+                                <div id="identity_text" class="text_sub">IDENTITY</div>
+                                <div class="identity_line"></div>
+                                <div class="identityTitle">우리는 해와 땅 사이에 있는 사람들을 잇습니다</div>
+                                <div class="identityBody">
+                                    농산물은 해와 땅의 합작입니다. <br>
+                                    해와 땅이 엮이는 공간인, 밭에서 농산물이 생겨납니다. <br>
+                                    해와 땅을 엮어주는 밭처럼 농민과 소비자를 엮어주고 싶습니다.
                                 </div>
-                                <label for="identityContents2" class="right"></label>
-                            </a>
+                            </div>
                         </li>
                         <li>
-                            <a>
-                                <div class="identity_box">
-                                    <label for="identityContents1" class="left"></label>
-                                    <div id="identity_text2" class="text_sub">VISION&MISSION</div>
-                                    <div class="identity_line"></div>
-                                    <div class="identityTitle">우리는 해와 땅을 생각하는 사람들 입니다.</div>
-                                    <div class="identityBody">
-                                        해와 땅은 오랫동안 변하지 않고 <br>
-                                        삶에 없어서는 안되는 필수적이고 고마운 요소입니다.<br>
-                                        <br>
-                                        개인의 단편적인 이득보다 <br>
-                                        모두가 지속적으로 행복한 연결고리를 만드는 것이 해왓땅의 목표입니다.
-                                    </div>
+
+                            <div class="identity_box">
+                                <div id="identity_text2" class="text_sub">VISION&MISSION</div>
+                                <div class="identity_line"></div>
+                                <div class="identityTitle">우리는 해와 땅을 생각하는 사람들 입니다.</div>
+                                <div class="identityBody">
+                                    해와 땅은 오랫동안 변하지 않고 <br>
+                                    삶에 없어서는 안되는 필수적이고 고마운 요소입니다.<br>
+                                    <br>
+                                    개인의 단편적인 이득보다 <br>
+                                    모두가 지속적으로 행복한 연결고리를 만드는 것이 해왓땅의 목표입니다.
                                 </div>
-                                <label for="identityContents1" class="right"></label>
-                            </a>
+                            </div>
                         </li>
+                        <div class="slide-control">
+                            <div class="control01">
+                                <label for="slide02" class="left"></label>
+                                <label for="slide02" class="right"></label>
+                            </div>
+                            <div class="control02">
+                                <label for="slide01" class="left"></label>
+                                <label for="slide01" class="right"></label>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -462,8 +466,19 @@
 
             <div id="icon" class="box">
                 <div class="text_sub" id="icon_text">ICON</div>
-                <div>
-                    <img src="./image/icon10.png" id="bigImg">
+                <div id="bigImg">
+                    <img class="slide1" src="./image/icon1.png">
+                    <img class="slide1" src="./image/icon2.png">
+                    <img class="slide1" src="./image/icon3.png">
+                    <img class="slide1" src="./image/icon4.png">
+                    <img class="slide1" src="./image/icon5.png">
+                    <img class="slide1" src="./image/icon6.png">
+                    <img class="slide1" src="./image/icon7.png">
+                    <img class="slide1" src="./image/icon8.png">
+                    <img class="slide1" src="./image/icon9.png">
+                    <img class="slide1" src="./image/icon10.png">
+                    <img class="slide1" src="./image/icon11.png">
+                    <img class="slide1" src="./image/하양해.png">
                 </div>
                 <div>
                     <img class="logo_img_s" src="./image/icon1.png" id="icon1">
@@ -507,6 +522,7 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="삼실.js"></script>
 </body>
 
 </html>
