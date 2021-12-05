@@ -23,3 +23,62 @@ margin: 0;
   width: 80%;
   height: 30px;
 }
+
+#keyLine{
+  border: 1.5px solid #FFFFFF;
+  border-radius: 50px;
+  width: 930px;
+}
+
+#keyPadding{
+height: 25px;
+margin: 50px;
+}
+
+.one_page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 703px;
+}
+
+#keyTytle{
+  text-align:start ;
+  position: absolute;
+  width: 930px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 40.1%;
+}
+
+#roundBox{
+  height: 428px;
+  width: 662px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.round{
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 201px;
+  height: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 25px;
+  color: white;
+  background-color: #13682F;
+  padding: 15px;
+}
+
+.round:nth-child(even){
+  background-color: #07893C;
+}
