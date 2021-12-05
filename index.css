@@ -20,7 +20,7 @@ body, html {
 
 /* color, size, weight, font-family, lettering-space */
 .subtitle{
-  color: #ffb922;
+  color: rgba(254, 224, 16, 1);
   font-family: 'Cafe24Ssurround';
 }
 
