@@ -19,7 +19,7 @@ function slideShow() {
 
 }
 
-/*전체 스크롤효과*/
+/*전체 스크롤효과
 window.addEventListener("wheel", function (e) {
   e.preventDefault();
 }, { passive: false });
@@ -47,6 +47,6 @@ $(window).on("wheel", function (e) {
 
   $html.animate({ scrollTop: posTop });
 
-});
+});*/
 
 
