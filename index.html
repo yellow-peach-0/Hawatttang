@@ -10,9 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./황도.css">
     <link rel="stylesheet" type="text/css" href="./삼실.css">
     <link rel="stylesheet" href="./index.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
-
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 
 <body>
@@ -63,13 +61,31 @@
 
 
         </div>
+        <div id="navigation">
+            <div id="nav1" class="navbox">
+                <div class="n_text" class="hidden">INFO</div>
+                <a class="n_circle" href="#information"></a>
+            </div>
 
-        <div id="nav">
-            <a class="n_circle" href="#information"></a>
-            <a class="n_circle" href="#process"></a>
-            <a class="n_circle" href="#value"></a>
-            <a class="n_circle" href="#menual"></a>
-            <a class="n_circle" href="#credit"></a>
+            <div id="nav2" class="navbox">
+                <div class="n_text" class="hidden">PROCESS</div>
+                <a class="n_circle" href="#process"></a>
+            </div>
+
+            <div id="nav3" class="navbox" class="hidden">
+                <div class="n_text" class="hidden">BREND VALUE</div>
+                <a class="n_circle" href="#value"></a>
+            </div>
+
+            <div id="nav4" class="navbox">
+                <div class="n_text" class="hidden">BREND MENUAL</div>
+                <a class="n_circle" href="#menual"></a>
+            </div>
+
+            <div id="nav5" class="navbox">
+                <div class="n_text" class="hidden">CREDITS</div>
+                <a class="n_circle" href="#credit"></a>
+            </div>
         </div>
 
         <div id="information">
@@ -177,8 +193,8 @@
             </div>
         </div>
 
-        <div id="value" class="box">
-            <div id="vision">
+        <div id="value">
+            <div id="vision" class="box">
                 <div id="value_sub" class="subtitle">
                     <img src="./image/노랑해.png" class="title_logo">
                     BRAND VALUE
@@ -190,7 +206,7 @@
                 </div>
 
                 <div class="text_sub" id="vt2">VISION&MISSION</div>
-                <div class="vl"></div>
+                <div id="vl"></div>
 
                 <div id="vc1" class="vc">
                     <div class="vct">WHY</div>
@@ -218,82 +234,83 @@
                 </div>
             </div>
 
-        </div>
-
-        <div id="identity" class="box">
-            <div id="background3Circle">
-                <div id="backgroundCircle1"></div>
-                <div id="backgroundCircle2"></div>
-                <div id="backgroundCircle3"></div>
-            </div>
-
-            <div class="section">
-                <input type="radio" name="slide" id="slide01" checked>
-                <input type="radio" name="slide" id="slide02">
-
-                <div class="slidewrap">
-                    <ul class="slidelist">
-                        <li>
-                            <div class="identity_box">
-                                <div id="identity_text" class="text_sub">IDENTITY</div>
-                                <div class="identity_line"></div>
-                                <div class="identityTitle">우리는 해와 땅 사이에 있는 사람들을 잇습니다</div>
-                                <div class="identityBody">
-                                    농산물은 해와 땅의 합작입니다. <br>
-                                    해와 땅이 엮이는 공간인, 밭에서 농산물이 생겨납니다. <br>
-                                    해와 땅을 엮어주는 밭처럼 농민과 소비자를 엮어주고 싶습니다.
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-
-                            <div class="identity_box">
-                                <div id="identity_text2" class="text_sub">VISION&MISSION</div>
-                                <div class="identity_line"></div>
-                                <div class="identityTitle">우리는 해와 땅을 생각하는 사람들 입니다.</div>
-                                <div class="identityBody">
-                                    해와 땅은 오랫동안 변하지 않고 <br>
-                                    삶에 없어서는 안되는 필수적이고 고마운 요소입니다.<br>
-                                    <br>
-                                    개인의 단편적인 이득보다 <br>
-                                    모두가 지속적으로 행복한 연결고리를 만드는 것이 해왓땅의 목표입니다.
-                                </div>
-                            </div>
-                        </li>
-                        <div class="slide-control">
-                            <div class="control01">
-                                <label for="slide02" class="left"></label>
-                                <label for="slide02" class="right"></label>
-                            </div>
-                            <div class="control02">
-                                <label for="slide01" class="left"></label>
-                                <label for="slide01" class="right"></label>
-                            </div>
-                        </div>
-                    </ul>
+            <div id="identity" class="box">
+                <div id="background3Circle">
+                    <div id="backgroundCircle1"></div>
+                    <div id="backgroundCircle2"></div>
+                    <div id="backgroundCircle3"></div>
                 </div>
-            </div>
-        </div>
 
-        <div class="one_page">
-            <div>
-                <div class="text_sub" id="dlehd">BRAND KEYWORD</div>
-                <div id="keyLine"></div>
-            </div>
-            <div>
-                <div class="text_contents" id="keyPadding">위의 가치를 토대로 브랜드 키워드를 설정했습니다.</div>
-                <div id="roundBox">
-                    <span class="round">소통</span>
-                    <span class="round">행복</span>
-                    <span class="round">농업</span>
-                    <span class="round">협동</span>
-                    <span class="round">상생</span>
-                    <span class="round">지속가능</span>
+                <div class="section">
+                    <input type="radio" name="slide" id="slide01" checked>
+                    <input type="radio" name="slide" id="slide02">
+
+                    <div class="slidewrap">
+                        <ul class="slidelist">
+                            <li>
+                                <div class="identity_box">
+                                    <div id="identity_text" class="text_sub">IDENTITY</div>
+                                    <div class="identity_line"></div>
+                                    <div class="identityTitle">우리는 해와 땅 사이에 있는 사람들을 잇습니다</div>
+                                    <div class="identityBody">
+                                        농산물은 해와 땅의 합작입니다. <br>
+                                        해와 땅이 엮이는 공간인, 밭에서 농산물이 생겨납니다. <br>
+                                        해와 땅을 엮어주는 밭처럼 농민과 소비자를 엮어주고 싶습니다.
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+
+                                <div class="identity_box">
+                                    <div id="identity_text2" class="text_sub">VISION&MISSION</div>
+                                    <div class="identity_line"></div>
+                                    <div class="identityTitle">우리는 해와 땅을 생각하는 사람들 입니다.</div>
+                                    <div class="identityBody">
+                                        해와 땅은 오랫동안 변하지 않고 <br>
+                                        삶에 없어서는 안되는 필수적이고 고마운 요소입니다.<br>
+                                        <br>
+                                        개인의 단편적인 이득보다 <br>
+                                        모두가 지속적으로 행복한 연결고리를 만드는 것이 해왓땅의 목표입니다.
+                                    </div>
+                                </div>
+                            </li>
+                            <div class="slide-control">
+                                <div class="control01">
+                                    <label for="slide02" class="left"></label>
+                                    <label for="slide02" class="right"></label>
+                                </div>
+                                <div class="control02">
+                                    <label for="slide01" class="left"></label>
+                                    <label for="slide01" class="right"></label>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
 
+            <div id="keyword">
+                <div>
+                    <div class="text_sub" id="dlehd">BRAND KEYWORD</div>
+                    <div id="keyLine"></div>
+                </div>
+                <div>
+                    <div class="text_contents" id="keyPadding">위의 가치를 토대로 브랜드 키워드를 설정했습니다.</div>
+                    <div id="roundBox">
+                        <span class="round">소통</span>
+                        <span class="round">행복</span>
+                        <span class="round">농업</span>
+                        <span class="round">협동</span>
+                        <span class="round">상생</span>
+                        <span class="round">지속가능</span>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
+
 
         <div id="menual">
             <div id="ds_concept" class="box">
@@ -323,7 +340,7 @@
                     <div>상생</div>
                 </div>
                 <div id="kc6" class="kc">
-                    <div>지속가능</div>
+                    <div>소통</div>
                 </div>
 
                 <div id="kl1" class="kline"></div>
@@ -555,21 +572,17 @@
                 <img class="member_img" id="this-c" src="./image/디코.png">
                 <img class="member_img" id="woody" src="./image/낙타.png">
             </div>
-            <div id="footer">
-                <div id="byebye">
-                    <img id="byeImg" src="./image/icon8.png">
-                    <div>
-                        <span id="byeTxt">
-                            <p id="s_hwt">팀 시선 | project 해왓땅</p>
-                            <p id="niceToMeetU">만나서 반가왓땅!</p>
-                        </span>
-                    </div>
-                </div>
+            <div>
+                <!-- <img class="member_img" src="./호랑이">
+                <img class="member_img" src="./세실이">
+                <img class="member_img" src="./황도">
+                <img class="member_img" src="./디코">
+                <img class="member_img" src="./낙타"> -->
             </div>
-
         </div>
     </div>
     <script type="text/javascript" src="삼실.js"></script>
+    <script type="text/javascript" src="./황도.js"></script>
 </body>
 
 </html>
