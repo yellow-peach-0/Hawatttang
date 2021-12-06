@@ -31,7 +31,6 @@ var lastPage = $(".box").length;
 $html.animate({ scrollTop: 0 }, 10);
 
 $(window).on("wheel", function (e) {
-
   if ($html.is(":animated")) return;
 
   if (e.originalEvent.deltaY > 0) {
@@ -45,8 +44,10 @@ $(window).on("wheel", function (e) {
   }
   var posTop = (page - 1) * $(window).height();
 
+  console.log($html.is(":animated"))
+  console.log(page)
   $html.animate({ scrollTop: posTop });
 
-});*/
-
+});
+*/
 
