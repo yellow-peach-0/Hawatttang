@@ -23,6 +23,8 @@ body, html {
 .subtitle{
   color: rgba(254, 224, 16, 1);
   font-family: 'Cafe24Ssurround';
+  font-size: 40px;
+  letter-spacing: 1px;
 }
 
 .title_logo{

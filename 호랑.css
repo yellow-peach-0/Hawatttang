@@ -77,7 +77,7 @@ margin: 50px;
 
 /* credits */
 
-#creditbox{
+#credit{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -107,11 +107,11 @@ margin: 50px;
   top:-100px;
 }
 
-.credit{
+/* .credit{
   width: 800%;
   height: 249.5px;
   justify-content: center
-}
+} */
 
 #member{
   display: flex;
