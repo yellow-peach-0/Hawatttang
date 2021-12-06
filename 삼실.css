@@ -173,7 +173,7 @@
 .section[id="slide02"]:checked~#slidetwo{display: block;} 
 
 
-/*identity*/
+/*main*/
 
 #identity_text{
     position: absolute;
