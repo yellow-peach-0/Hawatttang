@@ -1,3 +1,4 @@
+
 /* Title */
 #t_text1{
     top: 27%;
@@ -63,16 +64,75 @@
 
 
 /* nav */
+#navigation{
+  position: fixed;
+  transform: translateY(-30%);
+  top: 50%;
+  right: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 170px;
+  z-index: 10;
+}
 
-#nav{
+.navbox{
+  width: 160px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.n_text{
+    color: #FEE010;
+    font-family: Cafe24Ssurround;
+    text-align: right;
+    margin-right: 10px;
+    visibility: hidden;
+}
+
+.n_circle{
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.navPlus{
+  background-color: #FEE010;
+  transition: 0.5s;
+}
+/* #navigation{
+  color: #FEE010;
+  font-family: Cafe24Ssurround;
+  text-align: right;
   position: fixed;
   top: 50%;
-  margin-top: -85px;
-  right: 40px;
+  right: 80px;
   display: flex;
   height: 170px;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 10;
+  visibility: hidden;
+}
+
+.visible{
+  color: #FEE010;
+  font-family: Cafe24Ssurround;
+  text-align: right;
+  position: fixed;
+  top: 50%;
+  right: 80px;
+  display: flex;
+  height: 170px;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
+  visibility: hidden;
 }
 
 .n_circle {
@@ -80,6 +140,11 @@
   height: 15px;
   border-radius: 50%;
   background-color: white;
+}
+
+.navPlus{
+  background-color: #FEE010;
+  transition: 0.5s;
 }
 
 /* infocon */
@@ -101,7 +166,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
-}
+} 
 
 /* process */
 #process_sub{
@@ -162,6 +227,7 @@ color: white;
   height: 105px;
 }
 
+
 /* menual-concept */
 
 
@@ -196,8 +262,8 @@ color: white;
   border: 3px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 50%;
-  width: 201px;
-  height: 201px;
+  width: 182px;
+  height: 182px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,12 +330,12 @@ color: white;
   transform: rotate(45deg);
   border-radius: 2px;
   position: absolute;
-  left: 48.8%;
+  left: 47.8%;
 }
 
 .kline{
   position: absolute;
-  left: 43%;
+  left: 42%;
   border: 1.5px solid #FFFFFF;
   width: 100px;
 }
@@ -510,7 +576,7 @@ color: white;
   top: 40.1%;
 }
 
-.vl{
+#vl{
   position: absolute;
   top: 44.7%;
   left: 50%;
