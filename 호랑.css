@@ -11,14 +11,7 @@ margin: 0;
 
 
 /* keyword */
-#keyword{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  height: 703px;
-}
+
 
 #dlehd{
   position: relative;
@@ -74,6 +67,15 @@ margin: 50px;
 .round:nth-child(even){
   background-color: #07893C;
 }
+
+#keyword{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
 
 /* credits */
 
