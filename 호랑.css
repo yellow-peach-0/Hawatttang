@@ -11,7 +11,7 @@ margin: 0;
 
 
 /* keyword */
-.one_page{
+#keyword{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -120,7 +120,7 @@ margin: 50px;
   align-items: center;
   height: 170px;
   position: relative;
-  bottom: -70px;
+  bottom: -100px;
 }
 
 .members{
@@ -129,18 +129,16 @@ margin: 50px;
   text-align: center;
   align-items: center;
   z-index: 100;
-  position: relative;
-  bottom: -50px;
 }
 
 .member_img{
   width: 150px;
-  margin: 20px;
+  margin: 21px;
   cursor: pointer;
 }
 /* 말풍선 */
+/* hover시 동작하게 하는거 왕왕어렵 */
 .ballon {
-  display: none;
   background-color: #0C7C37;
   border: #ffffff solid 6.5px;
   border-radius: 20px;
@@ -151,9 +149,10 @@ margin: 50px;
   padding: 5px 11px;
   position: relative;
   z-index: 100;
-  margin: 10px;
+  margin: 20px 0px 10px 10px;
   padding-top: 10px;
   z-index: 100;
+  position: absolute;
 }
 
 .ballon::after {
@@ -184,6 +183,22 @@ margin: 50px;
   top: 120px;
   width: 0;
   z-index: 0;
+}
+
+.ballon:first-child{
+  left: 205px;
+}
+
+.ballon:nth-child(2){
+  left: 398px;
+}
+
+.ballon:nth-child(4){
+  right: 398px;
+}
+
+.ballon:last-child{
+  right: 205px;
 }
 
 /* 속 내용 */
