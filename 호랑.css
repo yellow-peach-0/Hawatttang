@@ -136,9 +136,8 @@ margin: 50px;
   cursor: pointer;
 }
 /* 말풍선 */
-/* hover시 나타내기,, 왕왕어렵 */
+/* 이거 나타내기 하면 자꾸 간격이 떨어죵ㅅ.... */
 .ballon {
-  position: absolute;
   background-color: #0C7C37;
   border: #ffffff solid 6.5px;
   border-radius: 20px;
@@ -152,6 +151,7 @@ margin: 50px;
   margin: 20px 0px 10px 10px;
   padding-top: 10px;
   z-index: 100;
+  position: absolute;
 }
 
 .ballon::after {
