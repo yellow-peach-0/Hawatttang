@@ -9,7 +9,7 @@ width: 120px;
 margin: 0;
 }
 
-.one_page{
+#one_page{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -136,7 +136,7 @@ margin: 50px;
   cursor: pointer;
 }
 /* 말풍선 */
-/* 이거 나타내기 하면 자꾸 간격이 떨어죵ㅅ.... */
+/* hover시 동작하게 하는거 왕왕어렵 */
 .ballon {
   background-color: #0C7C37;
   border: #ffffff solid 6.5px;
