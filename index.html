@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="./index.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 
 <body>
-    <div class="background">
+    <div class="background" style="overflow: hidden;">
         <div id="title" class="box">
             <div id="t_text1">
                 <span>해와 땅 사이를 잇는 사람들,<br /></span>
@@ -219,61 +220,39 @@
             </div>
 
             <div id="identity" class="box">
-                <div id="background3Circle">
-                    <div id="backgroundCircle1"></div>
-                    <div id="backgroundCircle2"></div>
-                    <div id="backgroundCircle3"></div>
+                <div class="text_sub" id="identity_sub">IDENTITY</div>
+                <div id="identity_line"></div>
+
+                <i class="fas fa-chevron-left" id="L"></i>
+                <i class="fas fa-chevron-right" id="R"></i>
+
+
+                <div id="slide_background">
+                    <div id="sc1"></div>
+                    <div id="sc2"></div>
+                    <div id="sc3"></div>
                 </div>
 
-                <div class="section">
-                    <input type="radio" name="slide" id="slide01" checked>
-                    <input type="radio" name="slide" id="slide02">
 
-                    <div class="slidewrap">
-                        <ul class="slidelist">
-                            <li id="slideone">
-                                <div>
-                                    <div class="identity_box">
-                                        <div id="identity_text" class="text_sub">IDENTITY</div>
-                                        <div class="identity_line"></div>
-                                        <div class="identityTitle">우리는 해와 땅 사이에 있는 사람들을 잇습니다</div>
-                                        <div class="identityBody">
-                                            농산물은 해와 땅의 합작입니다. <br>
-                                            해와 땅이 엮이는 공간인, 밭에서 농산물이 생겨납니다. <br>
-                                            해와 땅을 엮어주는 밭처럼 농민과 소비자를 엮어주고 싶습니다.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li id="slidetwo">
-                                <div>
-                                    <div class="identity_box">
-                                        <div id="identity_text2" class="text_sub">VISION&MISSION</div>
-                                        <div class="identity_line"></div>
-                                        <div class="identityTitle">우리는 해와 땅을 생각하는 사람들 입니다.</div>
-                                        <div class="identityBody">
-                                            해와 땅은 오랫동안 변하지 않고 <br>
-                                            삶에 없어서는 안되는 필수적이고 고마운 요소입니다.<br>
-                                            <br>
-                                            개인의 단편적인 이득보다 <br>
-                                            모두가 지속적으로 행복한 연결고리를 만드는 것이 해왓땅의 목표입니다.
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <div class="slide-control">
-                                <div class="control01">
-                                    <label for="slide02" class="left"></label>
-                                    <label for="slide02" class="right"></label>
-                                </div>
-                                <div class="control02">
-                                    <label for="slide01" class="left"></label>
-                                    <label for="slide01" class="right"></label>
-                                </div>
-                            </div>
-                        </ul>
+
+                <div id="slideBox">
+                    <div id="slide1">
+                        <div class="slogan">우리는 해와 땅 사이에 있는 사람들을 잇습니다</div>
+
+                        <div class="sloganex">농산물은 해와 땅의 합작입니다.<br />
+                            해와 땅이 엮이는 공간인, 밭에서 농산물이 생겨납니다.<br />
+                            해와 땅을 엮어주는 밭처럼 농민와 소비자를 엮어 주고 싶습니다.</div>
+                    </div>
+                    <div id="slide2">
+                        <div class="slogan">우리는 해와 땅을 생각합니다</div>
+
+                        <div class="sloganex">오랫동안 변하지 않는 해와 땅처럼<br />
+                            해와 땅은 오랫동안 변하지 않을 지속가능한 농업을 생각합니다.</div>
                     </div>
                 </div>
+
+
+
             </div>
 
             <div id="keyword" class="box">
@@ -573,6 +552,7 @@
         </div>
     </div>
     <script type="text/javascript" src="삼실.js"></script>
+    <script type="text/javascript" src="./황도.js"></script>
 </body>
 
 </html>
