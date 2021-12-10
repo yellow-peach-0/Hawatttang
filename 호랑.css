@@ -109,12 +109,6 @@ margin: 50px;
   top:-100px;
 }
 
-/* .credit{
-  width: 800%;
-  height: 249.5px;
-  justify-content: center
-} */
-
 #member{
   display: flex;
   justify-content: center;
@@ -133,10 +127,40 @@ margin: 50px;
   z-index: 100;
 }
 
-.member_img{
-  width: 150px;
-  margin: 21px;
+.tiger{
+  margin: 15px;
   cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.cil{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.yellow-p{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.this-c{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.woody{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+
+.member_img img{
+  width: 150px;
+  height: 150px;
 }
 /* 말풍선 */
 /* hover시 동작하게 하는거 왕왕어렵 */
@@ -155,6 +179,7 @@ margin: 50px;
   padding-top: 10px;
   z-index: 100;
   position: absolute;
+  /* display: none; */
 }
 
 .ballon::after {
@@ -188,19 +213,19 @@ margin: 50px;
 }
 
 .ballon:first-child{
-  left: 205px;
+  left: 15%;
 }
 
 .ballon:nth-child(2){
-  left: 398px;
+  left: 29.1%;
 }
 
 .ballon:nth-child(4){
-  right: 398px;
+  right: 29.1%;
 }
 
 .ballon:last-child{
-  right: 205px;
+  right: 15%
 }
 
 /* 속 내용 */
@@ -216,7 +241,15 @@ margin: 50px;
   justify-content: center;
   align-items: center; 
   cursor: pointer;
+  border: 0;
+  font-size: 17px;
 }
+
+.more:hover{
+  background-color: rgb(226, 226, 194);
+}
+
+
 
 .iscome{
   font-family: 'Cafe24Ssurround';
@@ -235,12 +268,6 @@ margin: 50px;
   width: 80%;
   height: 30px;
 }
-
-/* 하우스 hover,,, */
-.members>div:hover ul{
-  display:block;
-}
-
 
 /* footer */
 #dlehd2{
