@@ -86,7 +86,7 @@ margin: 50px;
   text-align: center;
   align-items: center;
   position: relative;
-  top: 100px;
+  top: 270px;
 }
 
 #tytBox{
@@ -106,52 +106,18 @@ margin: 50px;
 }
 #up{
   position: relative;
-  top:-100px;
+  top:-230px;
 }
 
 #member{
   display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   height: 170px;
   position: relative;
-  bottom: -100px;
+  top:-40px
 }
 
-.members{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  z-index: 100;
-}
 
-.tiger{
-  margin: 15px;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0px;
-}
-.cil{
-  margin: 15px;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0px;
-}
-.yellow-p{
-  margin: 15px;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0px;
-}
-.this-c{
-  margin: 15px;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0px;
-}
-.woody{
+.member_img{
   margin: 15px;
   cursor: pointer;
   background-color: transparent;
@@ -171,15 +137,14 @@ margin: 50px;
   height: 105px;
   width: 140px;
   letter-spacing: -0.25px;
-  margin-top: 6.8px;
   padding: 5px 11px;
-  position: relative;
   z-index: 100;
-  margin: 20px 0px 10px 10px;
+  margin: 0px 0px 100px 0px;
   padding-top: 10px;
   z-index: 100;
   position: absolute;
-  /* display: none; */
+  top:-130px;
+  display: none;
 }
 
 .ballon::after {
@@ -193,7 +158,6 @@ margin: 50px;
   left:74.5px;
   position: absolute;
   top: 120px;
-  width: 0;
   z-index: 1;
 }
 
@@ -208,24 +172,29 @@ margin: 50px;
   left:65px;
   position: absolute;
   top: 120px;
-  width: 0;
   z-index: 0;
 }
 
-.ballon:first-child{
-  left: 15%;
+
+.members1:hover >.tiger1{
+  display: block;
 }
 
-.ballon:nth-child(2){
-  left: 29.1%;
+
+.members2:hover >.cil1{
+  display: block;
 }
 
-.ballon:nth-child(4){
-  right: 29.1%;
+.members3:hover >.yellow-p1{
+  display: block;
+  }
+
+.members4:hover >.this-c1{
+  display: block;
 }
 
-.ballon:last-child{
-  right: 15%
+.members5:hover >.woody1{
+  display: block;
 }
 
 /* 속 내용 */
