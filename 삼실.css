@@ -528,3 +528,39 @@
     left: 222px;
     top: 289px;
 }
+
+
+
+
+
+
+/*scroll snap*/
+.allContainer{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+
+}
+
+.allContainer .box{
+    scroll-snap-align: start;
+    height: 100vh;
+    display: block;
+}
+
+/*nav*/
+#nav{
+    left: 1322px;
+    top: 332px;
+}
+
+.n_circle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #FEAE00;
+    border-radius: 50%;
+}
