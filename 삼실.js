@@ -18,36 +18,3 @@ function slideShow() {
   setTimeout(slideShow, 1000);
 
 }
-
-/*전체 스크롤효과
-window.addEventListener("wheel", function (e) {
-  e.preventDefault();
-}, { passive: false });
-
-var $html = $("html");
-var page = 1;
-var lastPage = $(".box").length;
-
-$html.animate({ scrollTop: 0 }, 10);
-
-$(window).on("wheel", function (e) {
-  if ($html.is(":animated")) return;
-
-  if (e.originalEvent.deltaY > 0) {
-    if (page == lastPage) return;
-
-    page++;
-  } else if (e.originalEvent.deltaY < 0) {
-    if (page == 1) return;
-
-    page--;
-  }
-  var posTop = (page - 1) * $(window).height();
-
-  console.log($html.is(":animated"))
-  console.log(page)
-  $html.animate({ scrollTop: posTop });
-
-});
-*/
-
