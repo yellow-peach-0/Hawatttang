@@ -111,31 +111,56 @@ margin: 50px;
 
 #member{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
   height: 170px;
   position: relative;
-  top: -50px;
-  /* bottom: -100px; */
+  bottom: -100px;
 }
 
 .members{
-  z-index: 50;
-  margin: 10px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   align-items: center;
+  z-index: 100;
 }
 
-.member_img{
+.tiger{
   margin: 15px;
   cursor: pointer;
   background-color: transparent;
-  border: 0px
+  border: 0px;
 }
+.cil{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.yellow-p{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.this-c{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+.woody{
+  margin: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+
 .member_img img{
   width: 150px;
   height: 150px;
-  position: relative;
-  top: 100px;
 }
 /* 말풍선 */
 /* hover시 동작하게 하는거 왕왕어렵 */
@@ -146,11 +171,15 @@ margin: 50px;
   height: 105px;
   width: 140px;
   letter-spacing: -0.25px;
-  margin-top: 0px;
+  margin-top: 6.8px;
   padding: 5px 11px;
-  position: absolute;
-  top:-10px;
+  position: relative;
   z-index: 100;
+  margin: 20px 0px 10px 10px;
+  padding-top: 10px;
+  z-index: 100;
+  position: absolute;
+  /* display: none; */
 }
 
 .ballon::after {
@@ -163,7 +192,7 @@ margin: 50px;
   display: block;
   left:74.5px;
   position: absolute;
-  top: 115px;
+  top: 120px;
   width: 0;
   z-index: 1;
 }
@@ -178,20 +207,25 @@ margin: 50px;
   display: block;
   left:65px;
   position: absolute;
-  top: 115px;
+  top: 120px;
   width: 0;
   z-index: 0;
 }
 
-.tiger1{display:none;}
-.cil1{display: none;}
-.yellow-p1{display: none;}
-.this-c1{display: none;}
-.woody1{display: none;}
+.ballon:first-child{
+  left: 15%;
+}
 
-.tiger:hover ~ .tiger1{
-  display: block;
-  transition: 1s;
+.ballon:nth-child(2){
+  left: 29.1%;
+}
+
+.ballon:nth-child(4){
+  right: 29.1%;
+}
+
+.ballon:last-child{
+  right: 15%
 }
 
 /* 속 내용 */
@@ -252,7 +286,7 @@ margin: 50px;
   align-items: center;
   z-index: 100;
   position: relative;
-  bottom: -10px;
+  bottom: -120px;
 }
 
 #byebye{
