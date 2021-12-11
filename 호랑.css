@@ -86,7 +86,7 @@ margin: 50px;
   text-align: center;
   align-items: center;
   position: relative;
-  top: 100px;
+  top: 270px;
 }
 
 #tytBox{
@@ -106,37 +106,27 @@ margin: 50px;
 }
 #up{
   position: relative;
-  top:-100px;
+  top:-230px;
 }
-
-/* .credit{
-  width: 800%;
-  height: 249.5px;
-  justify-content: center
-} */
 
 #member{
   display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
   height: 170px;
   position: relative;
-  bottom: -100px;
+  top:-40px
 }
 
-.members{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  z-index: 100;
-}
 
 .member_img{
-  width: 150px;
-  margin: 21px;
+  margin: 15px;
   cursor: pointer;
+  background-color: transparent;
+  border: 0px;
+}
+
+.member_img img{
+  width: 150px;
+  height: 150px;
 }
 /* 말풍선 */
 /* hover시 동작하게 하는거 왕왕어렵 */
@@ -147,14 +137,14 @@ margin: 50px;
   height: 105px;
   width: 140px;
   letter-spacing: -0.25px;
-  margin-top: 6.8px;
   padding: 5px 11px;
-  position: relative;
   z-index: 100;
-  margin: 20px 0px 10px 10px;
+  margin: 0px 0px 100px 0px;
   padding-top: 10px;
   z-index: 100;
   position: absolute;
+  top:-130px;
+  display: none;
 }
 
 .ballon::after {
@@ -168,7 +158,6 @@ margin: 50px;
   left:74.5px;
   position: absolute;
   top: 120px;
-  width: 0;
   z-index: 1;
 }
 
@@ -183,24 +172,29 @@ margin: 50px;
   left:65px;
   position: absolute;
   top: 120px;
-  width: 0;
   z-index: 0;
 }
 
-.ballon:first-child{
-  left: 205px;
+
+.members1:hover >.tiger1{
+  display: block;
 }
 
-.ballon:nth-child(2){
-  left: 398px;
+
+.members2:hover >.cil1{
+  display: block;
 }
 
-.ballon:nth-child(4){
-  right: 398px;
+.members3:hover >.yellow-p1{
+  display: block;
+  }
+
+.members4:hover >.this-c1{
+  display: block;
 }
 
-.ballon:last-child{
-  right: 205px;
+.members5:hover >.woody1{
+  display: block;
 }
 
 /* 속 내용 */
@@ -216,7 +210,15 @@ margin: 50px;
   justify-content: center;
   align-items: center; 
   cursor: pointer;
+  border: 0;
+  font-size: 17px;
 }
+
+.more:hover{
+  background-color: rgb(226, 226, 194);
+}
+
+
 
 .iscome{
   font-family: 'Cafe24Ssurround';
@@ -235,12 +237,6 @@ margin: 50px;
   width: 80%;
   height: 30px;
 }
-
-/* 하우스 hover,,, */
-.members>div:hover ul{
-  display:block;
-}
-
 
 /* footer */
 #dlehd2{
