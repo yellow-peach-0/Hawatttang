@@ -530,10 +530,6 @@
 }
 
 
-
-
-
-
 /*scroll snap*/
 .allContainer{
     scroll-snap-type: y mandatory;
@@ -551,16 +547,86 @@
     display: block;
 }
 
-/*nav*/
+/*nav
 #nav{
-    left: 1322px;
-    top: 332px;
+    left: 1380px;
+    position: relative;
 }
 
-.n_circle{
-    position: absolute;
+#n_circle1{
+    top: 332px;
+    position: fixed;
+    z-index: 10;
     width: 15px;
     height: 15px;
-    background: #FEAE00;
+    background:  #FFFFFF;
     border-radius: 50%;
 }
+
+#t1{
+    position: fixed;
+    font-family: Cafe24 Ssurround;
+    font-size: 0px;
+    text-decoration-line: none;
+    letter-spacing: 0.05em;
+    width: 159px;
+    left: 1310px;
+    top: 313px;
+}
+
+
+
+
+
+#n_circle2{
+    top: 363px;
+    position: fixed;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    background:  #FFFFFF;
+    border-radius: 50%;
+}
+
+#n_circle3{
+    top: 394px;
+    position: fixed;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    background:  #FFFFFF;
+    border-radius: 50%;
+}
+
+#n_circle4{
+    top: 425px;
+    position: fixed;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    background:  #FFFFFF;
+    border-radius: 50%;
+}
+
+#n_circle5{
+    top: 456px;
+    position: fixed;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    background:  #FFFFFF;
+    border-radius: 50%;
+}
+#n_circle6{
+    top: 487px;
+    position: fixed;
+    z-index: 10;
+    width: 15px;
+    height: 15px;
+    background:  #FFFFFF;
+    border-radius: 50%;
+}
+*/
+
+
+

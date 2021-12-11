@@ -15,6 +15,6 @@ function slideShow() {
     index = 1;
   }
   x[index - 1].style.display = "block";
-  setTimeout(slideShow, 1000);
+  setTimeout(slideShow, 500);
 
 }
