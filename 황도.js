@@ -1,3 +1,4 @@
+// identity slider
 const display = document.querySelector("#slideBox")
 const buttonL = document.querySelector("#L")
 const buttonR = document.querySelector("#R")

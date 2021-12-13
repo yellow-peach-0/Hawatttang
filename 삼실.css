@@ -566,9 +566,13 @@
     border-radius: 50%;
 }
 
+#n_circle1:hover {
+    background-color: #FEE010;
+}
+
 #nct1{
     position: fixed;
-    font-family: Cafe24 Ssurround;
+    font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
@@ -576,7 +580,7 @@
     left: 1310px;
     top: 312px;
     opacity: 0;
-    color: white;
+    color: #FEE010;
 }
 
 #n_circle1:hover #nct1{
@@ -595,9 +599,13 @@
     border-radius: 50%;
 }
 
+#n_circle2:hover {
+    background-color: #FEE010;
+}
+
 #nct2{
     position: fixed;
-    font-family: Cafe24 Ssurround;
+    font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
@@ -605,7 +613,7 @@
     left: 1240px;
     top: 342px;
     opacity: 0;
-    color: white;
+    color: #FEE010;
 }
 
 #n_circle2:hover #nct2{
@@ -624,9 +632,13 @@
     border-radius: 50%;
 }
 
+#n_circle3:hover {
+    background-color: #FEE010;
+}
+
 #nct3{
     position: fixed;
-    font-family: Cafe24 Ssurround;
+    font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
@@ -634,7 +646,7 @@
     left: 1284px;
     top: 372px;
     opacity: 0;
-    color: white;
+    color: #FEE010;
 }
 
 #n_circle3:hover #nct3{
@@ -652,9 +664,13 @@
     border-radius: 50%;
 }
 
+#n_circle4:hover {
+    background-color: #FEE010;
+}
+
 #nct4{
     position: fixed;
-    font-family: Cafe24 Ssurround;
+    font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
@@ -662,7 +678,7 @@
     left: 1308px;
     top: 405px;
     opacity: 0;
-    color: white;
+    color: #FEE010;
 }
 
 #n_circle4:hover #nct4{
@@ -680,9 +696,13 @@
     border-radius: 50%;
 }
 
+#n_circle5:hover {
+    background-color: #FEE010;
+}
+
 #nct5{
     position: fixed;
-    font-family: Cafe24 Ssurround;
+    font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
@@ -690,7 +710,7 @@
     left: 1290px;
     top: 435px;
     opacity: 0;
-    color: white;
+    color: #FEE010;
 }
 
 #n_circle5:hover #nct5{
@@ -708,9 +728,13 @@
     color: white;
 }
 
+#n_circle6:hover {
+    background-color: #FEE010;
+}
+
 #nct6{
     position: fixed;
-    font-family: Cafe24 Ssurround;
+    font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
@@ -718,7 +742,7 @@
     left: 1305px;
     top: 469px;
     opacity: 0;
-    color: white;
+    color: #FEE010;
 }
 
 #n_circle6:hover #nct6{
