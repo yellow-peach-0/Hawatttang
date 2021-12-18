@@ -44,6 +44,9 @@ const nct5 = document.querySelector("#nct5")
 const nct6 = document.querySelector("#nct6")
 
 
+
+
+
   allContainer.addEventListener('scroll', function(){
     console.log(allContainer.scrollTop)
 
@@ -175,11 +178,13 @@ const nct6 = document.querySelector("#nct6")
     }
 
 
+   
 
 
     if (allContainer.scrollTop >=5100) {
       n_circle5.style.backgroundColor = '#FEE010'
       ho5.style.opacity = '1'
+      ho5.style.border= '2px solid #FFFFFF'
       nct5.style.opacity = '1'
 
     }
@@ -233,7 +238,141 @@ const nct6 = document.querySelector("#nct6")
       nct6.style.opacity = '0'
     }
 
-  })
+  });
+//     if(allContainer.scrollTop >=6000){
+//       n_circle1.style.backgroundColor ='#13682F'
+//       n_circle2.style.backgroundColor ='#13682F'
+//       n_circle3.style.backgroundColor ='#13682F'
+//       n_circle4.style.backgroundColor ='#13682F'
+//       ho5.style. border = ' 2px solid #13682F'
+//       n_circle6.style.backgroundColor ='#13682F'
+//       n_circle1.addEventListener('mouseover', function(){
+//       n_circle1.style.backgroundColor ='#13682F'
+//        nct1.style.color='#13682F'
+//       nct1.style.opacity = '1'
+//    });
+//       n_circle1.addEventListener('mouseout', function(){
+//       n_circle1.style.backgroundColor = '#13682F'
+//       nct1.style.opacity = '0'
+//    });
+//       n_circle2.addEventListener('mouseover', function(){
+//       n_circle2.style.backgroundColor ='#13682F'
+//        nct2.style.color='#13682F'
+//       nct2.style.opacity = '1'
+//    });
+//       n_circle2.addEventListener('mouseout', function(){
+//       n_circle2.style.backgroundColor = '#13682F'
+//       nct2.style.opacity = '0'
+//    });
+//       n_circle3.addEventListener('mouseover', function(){
+//       n_circle3.style.backgroundColor ='#13682F'
+//        nct3.style.color='#13682F'
+//       nct3.style.opacity = '1'
+//    });
+//       n_circle3.addEventListener('mouseout', function(){
+//       n_circle3.style.backgroundColor = '#13682F'
+//       nct3.style.opacity = '0'
+//    });
+//          n_circle4.addEventListener('mouseover', function(){
+//       n_circle4.style.backgroundColor ='#13682F'
+//        nct4.style.color='#13682F'
+//       nct4.style.opacity = '1'
+//    });
+//       n_circle4.addEventListener('mouseout', function(){
+//       n_circle4.style.backgroundColor = '#13682F'
+//       nct4.style.opacity = '0'
+//    });
+//     n_circle5.style.backgroundColor='#13682F'
+//     nct5.style.color='#13682F'
+
+//          n_circle5.addEventListener('mouseover', function(){
+//       n_circle5.style.backgroundColor ='#13682F'
+//       nct5.style.color='#13682F'
+//       nct5.style.opacity = '1'
+//    });
+ 
+//      n_circle5.addEventListener('mouseout', function(){
+//       n_circle5.style.backgroundColor = '#13682F'
+//       nct5.style.opacity = '1'
+//    });
+//             n_circle6.addEventListener('mouseover', function(){
+//       n_circle6.style.backgroundColor ='#13682F'
+//       nct6.style.color='#13682F'
+//       nct6.style.opacity = '1'
+//    });
+//       n_circle6.addEventListener('mouseout', function(){
+//       n_circle6.style.backgroundColor = '#13682F'
+//       nct6.style.opacity = '0'
+//    });
+//     }
+//   })
+
+//   if(allContainer.scrollTop >=7101){
+//       n_circle1.style.backgroundColor ='#FEE010'
+//       n_circle2.style.backgroundColor ='#FEE010'
+//       n_circle3.style.backgroundColor ='#FEE010'
+//       n_circle4.style.backgroundColor ='#FEE010'
+//       ho5.style. border = ' 2px solid #FEE010'
+//       n_circle6.style.backgroundColor ='#13682F'
+//       n_circle1.addEventListener('mouseover', function(){
+//       n_circle1.style.backgroundColor ='#13682F'
+//        nct1.style.color='#13682F'
+//       nct1.style.opacity = '1'
+//    });
+//       n_circle1.addEventListener('mouseout', function(){
+//       n_circle1.style.backgroundColor = '#13682F'
+//       nct1.style.opacity = '0'
+//    });
+//       n_circle2.addEventListener('mouseover', function(){
+//       n_circle2.style.backgroundColor ='#13682F'
+//        nct2.style.color='#13682F'
+//       nct2.style.opacity = '1'
+//    });
+//       n_circle2.addEventListener('mouseout', function(){
+//       n_circle2.style.backgroundColor = '#13682F'
+//       nct2.style.opacity = '0'
+//    });
+//       n_circle3.addEventListener('mouseover', function(){
+//       n_circle3.style.backgroundColor ='#13682F'
+//        nct3.style.color='#13682F'
+//       nct3.style.opacity = '1'
+//    });
+//       n_circle3.addEventListener('mouseout', function(){
+//       n_circle3.style.backgroundColor = '#13682F'
+//       nct3.style.opacity = '0'
+//    });
+//          n_circle4.addEventListener('mouseover', function(){
+//       n_circle4.style.backgroundColor ='#13682F'
+//        nct4.style.color='#13682F'
+//       nct4.style.opacity = '1'
+//    });
+//       n_circle4.addEventListener('mouseout', function(){
+//       n_circle4.style.backgroundColor = '#13682F'
+//       nct4.style.opacity = '0'
+//    });
+//     n_circle5.style.backgroundColor='#13682F'
+
+//          n_circle5.addEventListener('mouseover', function(){
+//       n_circle5.style.backgroundColor ='#13682F'
+//       nct5.style.color='#13682F'
+//       nct5.style.opacity = '1'
+//    });
+ 
+//      n_circle5.addEventListener('mouseout', function(){
+//       n_circle5.style.backgroundColor = '#13682F'
+//       nct5.style.opacity = '1'
+//    });
+//             n_circle6.addEventListener('mouseover', function(){
+//       n_circle6.style.backgroundColor ='#13682F'
+//       nct6.style.color='#13682F'
+//       nct6.style.opacity = '1'
+//    });
+//       n_circle6.addEventListener('mouseout', function(){
+//       n_circle6.style.backgroundColor = '#13682F'
+//       nct6.style.opacity = '0'
+//    });
+//     }
+
 
  
 
