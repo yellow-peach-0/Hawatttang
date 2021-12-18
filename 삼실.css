@@ -1,29 +1,29 @@
 /* info */
 
-#info{
+#info {
     position: relative;
-    height:100vh;
+    height: 100vh;
     display: block;
 }
 
 
 
-#info_sub{ 
+#info_sub {
     position: absolute;
     height: 0;
     left: 43%;
     top: 5%;
     font-size: 40px;
     letter-spacing: 0.1em;
-    
+
 }
 
-#info_text{
+#info_text {
     position: absolute;
     left: 32%;
     top: 25%;
     letter-spacing: -0.011em;
-    line-height:40px;
+    line-height: 40px;
     text-align: center;
 }
 
@@ -34,7 +34,8 @@
     height: 362px;
     left: 28%;
     top: 45%;
-    background: rgba(254, 224, 16, 0.2);;
+    background: rgba(254, 224, 16, 0.2);
+    ;
     text-align: center;
     line-height: 350px;
 }
@@ -46,14 +47,15 @@
     height: 362px;
     left: 50%;
     top: 45%;
-    background: rgba(254, 224, 16, 0.2);;
+    background: rgba(254, 224, 16, 0.2);
+    ;
     text-align: center;
     line-height: 350px;
 }
 
 /*main*/
 
-#identity_text{
+#identity_text {
     position: absolute;
     width: 289.76px;
     height: 0px;
@@ -62,7 +64,7 @@
     letter-spacing: 0.135rem;
 }
 
-#identity_text2{
+#identity_text2 {
     position: absolute;
     width: 289.76px;
     height: 0px;
@@ -71,7 +73,7 @@
     letter-spacing: 0.135rem;
 }
 
-.identity_line{
+.identity_line {
     position: absolute;
     width: 930px;
     height: 0px;
@@ -81,7 +83,7 @@
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
-.identityTitle{
+.identityTitle {
     position: absolute;
     width: 823px;
     height: 24px;
@@ -100,7 +102,7 @@
     color: #FFFFFF;
 }
 
-.identityBody{
+.identityBody {
     position: absolute;
     width: 797px;
     height: 140px;
@@ -121,18 +123,18 @@
     line-height: 35px;
 }
 
- /*menual-logo*/
+/*menual-logo*/
 
- #logoType_text{
+#logoType_text {
     position: absolute;
     width: 289.76px;
     height: 0px;
     left: 45%;
     top: 18%;
     letter-spacing: 0.135em;
- }
+}
 
-#threeImg{
+#threeImg {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -141,7 +143,7 @@
     height: 403px;
 }
 
-#firstImg{
+#firstImg {
     position: absolute;
     width: 212px;
     left: 49%;
@@ -149,7 +151,7 @@
     margin-left: -100px;
 }
 
-#firstImg_shape{
+#firstImg_shape {
     z-index: 1;
     border-radius: 50%;
     background: #89B397;
@@ -161,16 +163,16 @@
 }
 
 
- #secondImg{
+#secondImg {
     z-index: 2;
     position: absolute;
     width: 403px;
     left: 48%;
     margin-left: -200px;
     top: 0%;
- }
- 
- #secondImg_shape{
+}
+
+#secondImg_shape {
     z-index: 2;
     border-radius: 50%;
     background: #CBDED1;
@@ -180,18 +182,18 @@
     left: 50%;
     top: 20%;
     margin-left: -200px;
- }
+}
 
 
- #thirdImg{
+#thirdImg {
     position: absolute;
     width: 213px;
     right: 49%;
     top: 7%;
     margin-right: -100px;
- }
+}
 
-#thirdImg_shape{
+#thirdImg_shape {
     z-index: 1;
     border-radius: 50%;
     background: #89B397;
@@ -203,15 +205,15 @@
 }
 
 /*logoinfo*/
-#logoInfo{
+#logoInfo {
     position: relative;
-    height:100vh;
+    height: 100vh;
     display: block;
-    top:50%
+    top: 50%
 }
 
 
-#principle_text{
+#principle_text {
     position: absolute;
     width: 289.76px;
     height: 0px;
@@ -220,7 +222,7 @@
     letter-spacing: 0.135em;
 }
 
-#principle_line{
+#principle_line {
     position: absolute;
     height: 0px;
     left: 16%;
@@ -234,7 +236,7 @@
 
 
 
-#friendly{
+#friendly {
     position: absolute;
     width: 123px;
     height: 29px;
@@ -242,7 +244,7 @@
     top: 45%
 }
 
-#nature{
+#nature {
     position: absolute;
     width: 123px;
     height: 32px;
@@ -250,7 +252,7 @@
     top: 45%;
 }
 
-#connect{
+#connect {
     position: absolute;
     width: 123px;
     height: 29px;
@@ -258,7 +260,7 @@
     top: 42%;
 }
 
-#firstCircle{
+#firstCircle {
     z-index: 3;
     border-radius: 50%;
     position: absolute;
@@ -272,14 +274,14 @@
     box-sizing: border-box;
 }
 
-#arrow1{
+#arrow1 {
     position: absolute;
     width: 100px;
     left: 30%;
     top: 38%;
 }
 
-#secondCircle{
+#secondCircle {
     z-index: 2;
     border-radius: 50%;
     position: absolute;
@@ -293,7 +295,7 @@
     box-sizing: border-box;
 }
 
-#arrow2{
+#arrow2 {
     position: absolute;
     width: 100px;
     left: 30%;
@@ -302,7 +304,7 @@
 
 
 
-#thirdCircle{
+#thirdCircle {
     z-index: 1;
     border-radius: 50%;
     position: absolute;
@@ -316,14 +318,14 @@
     box-sizing: border-box;
 }
 
-#arrow3{
+#arrow3 {
     top: 72%;
     position: absolute;
     width: 100px;
     left: 30%;
 }
 
-#logoConcept_text{
+#logoConcept_text {
     position: absolute;
     width: 574px;
     height: 0px;
@@ -334,7 +336,7 @@
 
 
 
-#logoConcept_line{
+#logoConcept_line {
     position: absolute;
     height: 0px;
     left: 43%;
@@ -347,8 +349,8 @@
 }
 
 
-.logo_img_s{
-    width: 120px;    
+.logo_img_s {
+    width: 120px;
     margin: 0;
 }
 
@@ -360,7 +362,7 @@
     top: 28%;
 }
 
-#socury{
+#socury {
     position: absolute;
     width: 199px;
     height: 121px;
@@ -376,7 +378,7 @@
     top: 66%;
 }
 
-#sun{
+#sun {
     line-height: 148%;
     position: absolute;
     width: 338px;
@@ -386,7 +388,7 @@
 
 }
 
-#farm{
+#farm {
     position: absolute;
     width: 297px;
     height: 52px;
@@ -395,7 +397,7 @@
     line-height: 148%;
 }
 
-#connect_text{
+#connect_text {
     position: absolute;
     width: 267px;
     height: 74px;
@@ -406,13 +408,13 @@
 
 /*icon*/
 
-#icon{
+#icon {
     position: relative;
-    height:100vh;
+    height: 100vh;
     display: block;
 }
 
-#icon_text{
+#icon_text {
     position: absolute;
     width: 112.22px;
     height: 0%;
@@ -421,7 +423,7 @@
     letter-spacing: 0.135em;
 }
 
-#icon1{
+#icon1 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -430,7 +432,7 @@
 }
 
 
-#icon2{
+#icon2 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -438,7 +440,7 @@
     top: 47%;
 }
 
-#icon3{
+#icon3 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -446,7 +448,7 @@
     top: 47%;
 }
 
-#icon4{
+#icon4 {
     position: absolute;
     width: 110px;
     height: 110px;
@@ -454,7 +456,7 @@
     top: 65%;
 }
 
-#icon5{
+#icon5 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -462,7 +464,7 @@
     top: 65%;
 }
 
-#icon6{
+#icon6 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -470,7 +472,7 @@
     top: 29%;
 }
 
-#icon7{
+#icon7 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -478,7 +480,7 @@
     top: 29%;
 }
 
-#icon8{
+#icon8 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -486,7 +488,7 @@
     top: 65%;
 }
 
-#icon9{
+#icon9 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -494,7 +496,7 @@
     top: 65%;
 }
 
-#icon10{
+#icon10 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -502,7 +504,7 @@
     top: 29%;
 }
 
-#icon11{
+#icon11 {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -510,18 +512,18 @@
     top: 47%;
 }
 
-#icon12{
+#icon12 {
     position: absolute;
     width: 120px;
     height: 120px;
     left: 42%;
     top: 29%;
-    
+
 }
 
 
 
-.icon_slide{
+.icon_slide {
     position: absolute;
     width: 330px;
     height: 330px;
@@ -532,7 +534,7 @@
 
 
 /*scroll snap*/
-.allContainer{
+.allContainer {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -542,7 +544,7 @@
 
 }
 
-.allContainer .box{
+.allContainer .box {
     scroll-snap-align: start;
     height: 100vh;
     display: block;
@@ -551,205 +553,275 @@
 
 /*nav*/
 
-#nav{
-    left: 1380px;
+#nav {
+    left: 95.8%;
     position: relative;
 }
 
-#n_circle1{
-    top: 332px;
+#n_circle1 {
+    top: 39.8%;
     position: fixed;
     z-index: 10;
     width: 15px;
     height: 15px;
-    background:  #FFFFFF;
+    background: #FFFFFF;
     border-radius: 50%;
 }
+
+#ho1 {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 95.56%;
+    top: 39.3%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
 
 #n_circle1:hover {
     background-color: #FEE010;
 }
 
-#nct1{
+#nct1 {
     position: fixed;
     font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
     width: 159px;
-    left: 1310px;
-    top: 312px;
+    left: 91%;
+    top: 37%;
     opacity: 0;
     color: #FEE010;
 }
 
-#n_circle1:hover #nct1{
+#n_circle1:hover #nct1 {
     opacity: 1;
 }
 
 
 
-#n_circle2{
-    top: 363px;
+#n_circle2 {
+    top: 43.5%;
     position: fixed;
     z-index: 10;
     width: 15px;
     height: 15px;
-    background:  #FFFFFF;
+    background: #FFFFFF;
     border-radius: 50%;
 }
+
+#ho2 {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 95.56%;
+    top: 43%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
 
 #n_circle2:hover {
     background-color: #FEE010;
 }
 
-#nct2{
+#nct2 {
     position: fixed;
     font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
     width: 159px;
-    left: 1240px;
-    top: 342px;
+    left: 86%;
+    top: 40.7%;
     opacity: 0;
     color: #FEE010;
 }
 
-#n_circle2:hover #nct2{
+#n_circle2:hover #nct2 {
     opacity: 1;
 }
 
 
 
-#n_circle3{
-    top: 394px;
+#n_circle3 {
+    top: 47.2%;
     position: fixed;
     z-index: 10;
     width: 15px;
     height: 15px;
-    background:  #FFFFFF;
+    background: #FFFFFF;
     border-radius: 50%;
+}
+
+#ho3 {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 95.56%;
+    top: 46.7%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 0;
 }
 
 #n_circle3:hover {
     background-color: #FEE010;
 }
 
-#nct3{
+#nct3 {
     position: fixed;
     font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
     width: 159px;
-    left: 1284px;
-    top: 372px;
+    left: 89%;
+    top: 45%;
     opacity: 0;
     color: #FEE010;
 }
 
-#n_circle3:hover #nct3{
+#n_circle3:hover #nct3 {
     opacity: 1;
 }
 
 
-#n_circle4{
-    top: 425px;
+#n_circle4 {
+    top: 50.9%;
     position: fixed;
     z-index: 10;
     width: 15px;
     height: 15px;
-    background:  #FFFFFF;
+    background: #FFFFFF;
     border-radius: 50%;
+}
+
+#ho4 {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 95.56%;
+    top: 50.5%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 0;
 }
 
 #n_circle4:hover {
     background-color: #FEE010;
 }
 
-#nct4{
+#nct4 {
     position: fixed;
     font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
     width: 159px;
-    left: 1308px;
-    top: 405px;
+    left: 91%;
+    top: 48.3%;
     opacity: 0;
     color: #FEE010;
 }
 
-#n_circle4:hover #nct4{
+#n_circle4:hover #nct4 {
     opacity: 1;
 }
 
 
-#n_circle5{
-    top: 456px;
+#n_circle5 {
+    top: 54.5%;
     position: fixed;
     z-index: 10;
     width: 15px;
     height: 15px;
-    background:  #FFFFFF;
+    background: #FFFFFF;
     border-radius: 50%;
 }
+
+#ho5 {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 95.56%;
+    top: 54%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
 
 #n_circle5:hover {
     background-color: #FEE010;
 }
 
-#nct5{
+#nct5 {
     position: fixed;
     font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
     width: 159px;
-    left: 1290px;
-    top: 435px;
+    left: 89.7%;
+    top: 52.1%;
     opacity: 0;
     color: #FEE010;
 }
 
-#n_circle5:hover #nct5{
+#n_circle5:hover #nct5 {
     opacity: 1;
 }
 
-#n_circle6{
-    top: 487px;
+#n_circle6 {
+    top: 58.3%;
     position: fixed;
     z-index: 10;
     width: 15px;
     height: 15px;
-    background:  #FFFFFF;
+    background: #FFFFFF;
     border-radius: 50%;
     color: white;
+}
+
+#ho6 {
+    position: fixed;
+    width: 23px;
+    height: 23px;
+    left: 95.56%;
+    top: 57.8%;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    opacity: 0;
 }
 
 #n_circle6:hover {
     background-color: #FEE010;
 }
 
-#nct6{
+#nct6 {
     position: fixed;
     font-family: Cafe24Ssurround;
     font-size: 18px;
     text-decoration-line: none;
     letter-spacing: 0.05em;
     width: 159px;
-    left: 1305px;
-    top: 469px;
+    left: 90.9%;
+    top: 56%;
     opacity: 0;
     color: #FEE010;
 }
 
-#n_circle6:hover #nct6{
+#n_circle6:hover #nct6 {
     opacity: 1;
 }
-
-
-
-
-
