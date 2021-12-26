@@ -541,7 +541,12 @@
     width: 100%;
     height: 100vh;
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
+.allContainer::-webkit-scrollbar {
+    display: none;
 }
 
 .allContainer .box {
